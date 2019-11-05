@@ -1,0 +1,272 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}\sphinxstylestrong {Introduction}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\sphinxstylestrong {What is THRUX?}}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}\sphinxstylestrong {New User?}}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}\sphinxstylestrong {Setting Up Your Account, Installation, and Receiving Updates}}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}\sphinxstylestrong {Accounts, Projects, Branches, and Subcriptions}}{2}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}THRUX Basic}{2}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}THRUX Professional}{2}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}THRUX Team}{2}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}\sphinxstylestrong {Storage and Recovery Options}}{3}{section.1.5}
+\contentsline {section}{\numberline {1.6}\sphinxstylestrong {Contact Us/Support}}{3}{section.1.6}
+\contentsline {chapter}{\numberline {2}\sphinxstylestrong {Product Overview}}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}\sphinxstylestrong {Code-Compliant Design}}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Flag Tracker}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Studies}{6}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}\sphinxstylestrong {Revit Interoperability}}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}\sphinxstylestrong {Pricing}}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Pricing Report}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Price Monitoring}{9}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}\sphinxstylestrong {Branching}}{10}{section.2.4}
+\contentsline {chapter}{\numberline {3}\sphinxstylestrong {Tutorial Project}}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}\sphinxstylestrong {Creating a New Project}}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}First Steps}{14}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Roadmap}{14}{subsubsection.3.1.1.1}
+\contentsline {section}{\numberline {3.2}\sphinxstylestrong {Creating the Architectural Model}}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Creating Columns and Floors}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Creating Rooms}{17}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Creating Stacked Rooms or a Riser}{17}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}\sphinxstylestrong {Modeling the Electrical System}}{19}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Riser}{19}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Placing Rooms}{20}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Creating a Source}{21}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Creating Connections}{21}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Copying and Pasting Equipment}{24}{subsubsection.3.3.1.4}
+\contentsline {subsubsection}{\numberline {3.3.1.5}Moving Equipment, Floors, or Rooms}{28}{subsubsection.3.3.1.5}
+\contentsline {subsubsection}{\numberline {3.3.1.6}Creating Transfer Switches}{29}{subsubsection.3.3.1.6}
+\contentsline {subsection}{\numberline {3.3.2}One-Line}{31}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Schedules}{33}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}\sphinxstylestrong {Exporting, Studies, and Reporting}}{34}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Exporting to AutoCAD}{34}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Studies and Reporting}{37}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}\sphinxstylestrong {User Guide - Getting Started}}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}\sphinxstylestrong {Signing In}}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}\sphinxstylestrong {Navigating THRUX}}{41}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Workspace Toolbar}{41}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Explorer Toolbar}{43}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Navigation Bar}{44}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Additional Commands}{46}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}\sphinxstylestrong {Creating a New Project}}{46}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Opening an Existing Project}{47}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Project Settings}{48}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Default Model Parameters}{49}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Calculation Settings}{50}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}Auto-Sizing Filters}{51}{subsubsection.4.3.2.3}
+\contentsline {subsubsection}{\numberline {4.3.2.4}Flag Settings}{52}{subsubsection.4.3.2.4}
+\contentsline {subsubsection}{\numberline {4.3.2.5}Custom Design Assistance Settings}{53}{subsubsection.4.3.2.5}
+\contentsline {subsubsection}{\numberline {4.3.2.6}\sphinxstylestrong {Labor Rates}}{54}{subsubsection.4.3.2.6}
+\contentsline {subsection}{\numberline {4.3.3}Roadmap}{55}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}\sphinxstylestrong {Defining Architectural Elements}}{56}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Overview}{56}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Equipment Distances}{56}{subsubsection.4.4.1.1}
+\contentsline {paragraph}{\numberline {4.4.1.1.1}Calculated Length}{56}{paragraph.4.4.1.1.1}
+\contentsline {paragraph}{\numberline {4.4.1.1.2}Manual Added Length}{58}{paragraph.4.4.1.1.2}
+\contentsline {paragraph}{\numberline {4.4.1.1.3}Net Length}{58}{paragraph.4.4.1.1.3}
+\contentsline {subsubsection}{\numberline {4.4.1.2}Loading System}{58}{subsubsection.4.4.1.2}
+\contentsline {subsection}{\numberline {4.4.2}Floor Plans}{61}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Additional Commands}{61}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Setup Wizard}{61}{subsubsection.4.4.2.2}
+\contentsline {subsubsection}{\numberline {4.4.2.3}Grid Editor}{65}{subsubsection.4.4.2.3}
+\contentsline {subsubsection}{\numberline {4.4.2.4}Creation Mode}{67}{subsubsection.4.4.2.4}
+\contentsline {subsubsection}{\numberline {4.4.2.5}Move Equipment}{71}{subsubsection.4.4.2.5}
+\contentsline {subsection}{\numberline {4.4.3}Architectural Elements}{74}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}Additional Commands}{75}{subsubsection.4.4.3.1}
+\contentsline {paragraph}{\numberline {4.4.3.1.1}Architectural Package}{75}{paragraph.4.4.3.1.1}
+\contentsline {paragraph}{\numberline {4.4.3.1.2}Load Allocation}{77}{paragraph.4.4.3.1.2}
+\contentsline {paragraph}{\numberline {4.4.3.1.3}Diversification}{79}{paragraph.4.4.3.1.3}
+\contentsline {subsubsection}{\numberline {4.4.3.2}Modeling Residential Loads}{81}{subsubsection.4.4.3.2}
+\contentsline {paragraph}{\numberline {4.4.3.2.1}Appliances}{81}{paragraph.4.4.3.2.1}
+\contentsline {paragraph}{\numberline {4.4.3.2.2}Unit Type}{81}{paragraph.4.4.3.2.2}
+\contentsline {paragraph}{\numberline {4.4.3.2.3}Apartment}{82}{paragraph.4.4.3.2.3}
+\contentsline {paragraph}{\numberline {4.4.3.2.4}Apartment Package}{82}{paragraph.4.4.3.2.4}
+\contentsline {subsubsection}{\numberline {4.4.3.3}Mechanical Entities}{83}{subsubsection.4.4.3.3}
+\contentsline {section}{\numberline {4.5}\sphinxstylestrong {Building the Electrical Model}}{83}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Overview}{83}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}Hosted vs. Unhosted Systems}{83}{subsubsection.4.5.1.1}
+\contentsline {subsection}{\numberline {4.5.2}Riser}{84}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}Navigation Overview}{85}{subsubsection.4.5.2.1}
+\contentsline {paragraph}{\numberline {4.5.2.1.1}Floor Navigator}{85}{paragraph.4.5.2.1.1}
+\contentsline {subparagraph}{\numberline {4.5.2.1.1.1}Floor Elevations}{86}{subparagraph.4.5.2.1.1.1}
+\contentsline {paragraph}{\numberline {4.5.2.1.2}Riser Toolbox}{89}{paragraph.4.5.2.1.2}
+\contentsline {subparagraph}{\numberline {4.5.2.1.2.1}Hidden Elements}{92}{subparagraph.4.5.2.1.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}Add Architectural Elements}{94}{subsubsection.4.5.2.2}
+\contentsline {subsubsection}{\numberline {4.5.2.3}Add Electrical Equipment}{96}{subsubsection.4.5.2.3}
+\contentsline {subsubsection}{\numberline {4.5.2.4}Connecting Equipment}{98}{subsubsection.4.5.2.4}
+\contentsline {paragraph}{\numberline {4.5.2.4.1}Resetting Connections}{100}{paragraph.4.5.2.4.1}
+\contentsline {subsubsection}{\numberline {4.5.2.5}Copying Equipment}{100}{subsubsection.4.5.2.5}
+\contentsline {subsubsection}{\numberline {4.5.2.6}Moving Equipment}{102}{subsubsection.4.5.2.6}
+\contentsline {subsubsection}{\numberline {4.5.2.7}Resizing Equipment}{103}{subsubsection.4.5.2.7}
+\contentsline {subsubsection}{\numberline {4.5.2.8}Navigate}{104}{subsubsection.4.5.2.8}
+\contentsline {subsubsection}{\numberline {4.5.2.9}Converting to Bus Duct}{107}{subsubsection.4.5.2.9}
+\contentsline {subsection}{\numberline {4.5.3}One-Line}{114}{subsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.3.1}Add a Source}{114}{subsubsection.4.5.3.1}
+\contentsline {paragraph}{\numberline {4.5.3.1.1}Short Circuit Current}{115}{paragraph.4.5.3.1.1}
+\contentsline {subsubsection}{\numberline {4.5.3.2}Add Equipment}{117}{subsubsection.4.5.3.2}
+\contentsline {subsubsection}{\numberline {4.5.3.3}Copy/Paste Equipment}{118}{subsubsection.4.5.3.3}
+\contentsline {subsubsection}{\numberline {4.5.3.4}Delete Equipment/Delete Network}{119}{subsubsection.4.5.3.4}
+\contentsline {subsubsection}{\numberline {4.5.3.5}Dragging/Rehosting Equipment}{119}{subsubsection.4.5.3.5}
+\contentsline {subsubsection}{\numberline {4.5.3.6}Navigate}{120}{subsubsection.4.5.3.6}
+\contentsline {subsubsection}{\numberline {4.5.3.7}Expanding/Collapsing Equipment}{121}{subsubsection.4.5.3.7}
+\contentsline {subsubsection}{\numberline {4.5.3.8}Changing Multiple Equipment Properties}{124}{subsubsection.4.5.3.8}
+\contentsline {subsubsection}{\numberline {4.5.3.9}Reset to Code Minimum}{127}{subsubsection.4.5.3.9}
+\contentsline {subsubsection}{\numberline {4.5.3.10}Workspace Toolbox}{128}{subsubsection.4.5.3.10}
+\contentsline {paragraph}{\numberline {4.5.3.10.1}Searching}{129}{paragraph.4.5.3.10.1}
+\contentsline {paragraph}{\numberline {4.5.3.10.2}Load Calculations}{130}{paragraph.4.5.3.10.2}
+\contentsline {paragraph}{\numberline {4.5.3.10.3}Property Tags/Quick Views}{130}{paragraph.4.5.3.10.3}
+\contentsline {subparagraph}{\numberline {4.5.3.10.3.1}Assigning Room Locations}{131}{subparagraph.4.5.3.10.3.1}
+\contentsline {subparagraph}{\numberline {4.5.3.10.3.2}Routing Through a Riser Shaft}{132}{subparagraph.4.5.3.10.3.2}
+\contentsline {paragraph}{\numberline {4.5.3.10.4}One-Line View Selectors}{134}{paragraph.4.5.3.10.4}
+\contentsline {subparagraph}{\numberline {4.5.3.10.4.1}Load Flow}{134}{subparagraph.4.5.3.10.4.1}
+\contentsline {subparagraph}{\numberline {4.5.3.10.4.2}Isolated Systems}{135}{subparagraph.4.5.3.10.4.2}
+\contentsline {subsubsection}{\numberline {4.5.3.11}Creating a Transfer Switch}{137}{subsubsection.4.5.3.11}
+\contentsline {subsubsection}{\numberline {4.5.3.12}Settings}{139}{subsubsection.4.5.3.12}
+\contentsline {paragraph}{\numberline {4.5.3.12.1}Scenario Manager}{140}{paragraph.4.5.3.12.1}
+\contentsline {subsubsection}{\numberline {4.5.3.13}Bus Duct}{143}{subsubsection.4.5.3.13}
+\contentsline {subsection}{\numberline {4.5.4}Schedules}{145}{subsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.4.1}Open Schedule}{146}{subsubsection.4.5.4.1}
+\contentsline {subsubsection}{\numberline {4.5.4.2}Adding, Deleting, Editing Equipment}{147}{subsubsection.4.5.4.2}
+\contentsline {subsubsection}{\numberline {4.5.4.3}Copy/Paste Circuits}{149}{subsubsection.4.5.4.3}
+\contentsline {subsubsection}{\numberline {4.5.4.4}Select All}{150}{subsubsection.4.5.4.4}
+\contentsline {subsubsection}{\numberline {4.5.4.5}Reset to Code Minimum}{151}{subsubsection.4.5.4.5}
+\contentsline {subsubsection}{\numberline {4.5.4.6}Moving, Rehosting Equipment, or Reordering Circuits}{151}{subsubsection.4.5.4.6}
+\contentsline {subsubsection}{\numberline {4.5.4.7}Lock/Unlock}{152}{subsubsection.4.5.4.7}
+\contentsline {subsubsection}{\numberline {4.5.4.8}Adding OCPD\IeC {\textquoteright }s}{153}{subsubsection.4.5.4.8}
+\contentsline {subsubsection}{\numberline {4.5.4.9}Navigate}{154}{subsubsection.4.5.4.9}
+\contentsline {subsubsection}{\numberline {4.5.4.10}Comparing Schedules Between Branches}{155}{subsubsection.4.5.4.10}
+\contentsline {subsubsection}{\numberline {4.5.4.11}MLO - Main Lug Only}{156}{subsubsection.4.5.4.11}
+\contentsline {subsubsection}{\numberline {4.5.4.12}Configure as Tap}{158}{subsubsection.4.5.4.12}
+\contentsline {subsubsection}{\numberline {4.5.4.13}Converting Breaker/Switch and Fuse}{160}{subsubsection.4.5.4.13}
+\contentsline {subsubsection}{\numberline {4.5.4.14}Multi-Pole Circuits}{161}{subsubsection.4.5.4.14}
+\contentsline {subsubsection}{\numberline {4.5.4.15}Poles}{162}{subsubsection.4.5.4.15}
+\contentsline {subsubsection}{\numberline {4.5.4.16}Schedule Views}{163}{subsubsection.4.5.4.16}
+\contentsline {subsubsection}{\numberline {4.5.4.17}Exporting}{164}{subsubsection.4.5.4.17}
+\contentsline {subsection}{\numberline {4.5.5}Flag Tracker}{165}{subsection.4.5.5}
+\contentsline {subsubsection}{\numberline {4.5.5.1}Using the Flag Tracker}{165}{subsubsection.4.5.5.1}
+\contentsline {paragraph}{\numberline {4.5.5.1.1}Navigation}{168}{paragraph.4.5.5.1.1}
+\contentsline {subsection}{\numberline {4.5.6}Studies}{169}{subsection.4.5.6}
+\contentsline {subsubsection}{\numberline {4.5.6.1}Queries - Voltage Drop, Short Circuit, Loading Studies}{170}{subsubsection.4.5.6.1}
+\contentsline {subsubsection}{\numberline {4.5.6.2}Searching}{171}{subsubsection.4.5.6.2}
+\contentsline {subsubsection}{\numberline {4.5.6.3}Navigate}{172}{subsubsection.4.5.6.3}
+\contentsline {subsubsection}{\numberline {4.5.6.4}Batch Changes and Editing}{174}{subsubsection.4.5.6.4}
+\contentsline {subsubsection}{\numberline {4.5.6.5}Printing and Exporting}{176}{subsubsection.4.5.6.5}
+\contentsline {section}{\numberline {4.6}\sphinxstylestrong {Building the Mechanical Model}}{177}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Building the Mechanical Model}{177}{subsection.4.6.1}
+\contentsline {section}{\numberline {4.7}\sphinxstylestrong {Building the Plumbing and Fire Protection Model}}{177}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Building the PFP Model}{177}{subsection.4.7.1}
+\contentsline {section}{\numberline {4.8}\sphinxstylestrong {Pricing Model}}{178}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Pricing Report}{178}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Price Tracker}{178}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.8.3}Equipment Rates}{180}{subsection.4.8.3}
+\contentsline {section}{\numberline {4.9}\sphinxstylestrong {Project Management}}{182}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Branching}{183}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Change Tracking}{189}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Accessibility}{190}{subsection.4.9.3}
+\contentsline {section}{\numberline {4.10}\sphinxstylestrong {Explorers and other Utility Tools}}{193}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Properties Explorer}{194}{subsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.1.1}Tags and Load Groups}{195}{subsubsection.4.10.1.1}
+\contentsline {subsection}{\numberline {4.10.2}Cascade Monitor}{196}{subsection.4.10.2}
+\contentsline {subsection}{\numberline {4.10.3}Data Exporter}{198}{subsection.4.10.3}
+\contentsline {subsection}{\numberline {4.10.4}Codes Reference}{199}{subsection.4.10.4}
+\contentsline {subsection}{\numberline {4.10.5}Status Bar}{200}{subsection.4.10.5}
+\contentsline {subsubsection}{\numberline {4.10.5.1}Design Assistance}{200}{subsubsection.4.10.5.1}
+\contentsline {paragraph}{\numberline {4.10.5.1.1}Full Design Assistance}{200}{paragraph.4.10.5.1.1}
+\contentsline {paragraph}{\numberline {4.10.5.1.2}Custom Design Assistance}{200}{paragraph.4.10.5.1.2}
+\contentsline {paragraph}{\numberline {4.10.5.1.3}No Design Assistance}{201}{paragraph.4.10.5.1.3}
+\contentsline {paragraph}{\numberline {4.10.5.1.4}Force Calculation Refresh}{201}{paragraph.4.10.5.1.4}
+\contentsline {paragraph}{\numberline {4.10.5.1.5}Auto Calculate}{201}{paragraph.4.10.5.1.5}
+\contentsline {paragraph}{\numberline {4.10.5.1.6}Toggle Flags}{201}{paragraph.4.10.5.1.6}
+\contentsline {paragraph}{\numberline {4.10.5.1.7}Version}{201}{paragraph.4.10.5.1.7}
+\contentsline {section}{\numberline {4.11}\sphinxstylestrong {Recovery Options}}{202}{section.4.11}
+\contentsline {section}{\numberline {4.12}\sphinxstylestrong {Automatic Updates}}{203}{section.4.12}
+\contentsline {section}{\numberline {4.13}\sphinxstylestrong {Revit Interoperability}}{206}{section.4.13}
+\contentsline {section}{\numberline {4.14}\sphinxstylestrong {AutoCAD Interoperability}}{206}{section.4.14}
+\contentsline {chapter}{\numberline {5}\sphinxstylestrong {Frequently Asked Questions}}{209}{chapter.5}
+\contentsline {section}{\numberline {5.1}\sphinxstylestrong {General}}{209}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Is THRUX compatible with Revit?}{209}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}How do I export my drawings to AutoCAD?}{209}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}How do I invite someone else to my project?}{209}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}I\IeC {\textquoteright }m working in the One-Line. How do I create equipment?}{209}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}I\IeC {\textquoteright }m not seeing everything on my Riser. I created equipment in the One-Line. How come it doesn\IeC {\textquoteright }t show up?}{209}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}I\IeC {\textquoteright }ve created a Riser, but I\IeC {\textquoteright }m starting to run out of space. Is there any way to shift everything upwards? If I move the floor will it update the elevations? Will it affect my lengths and voltage drop calculations?}{210}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Is there a way to create groups of equipment?}{210}{subsection.5.1.7}
+\contentsline {subsection}{\numberline {5.1.8}Is there a way to create a single feed for multiple motors or elevators?}{210}{subsection.5.1.8}
+\contentsline {subsection}{\numberline {5.1.9}I\IeC {\textquoteright }ve created a network, but I forgot to add a distribution board, or transfer switch, or some type of intermediate node. How can I add this without deleting what I have?}{211}{subsection.5.1.9}
+\contentsline {subsection}{\numberline {5.1.10}How do I create a bus duct?}{211}{subsection.5.1.10}
+\contentsline {subsection}{\numberline {5.1.11}How do I connect a transfer switch?}{211}{subsection.5.1.11}
+\contentsline {subsection}{\numberline {5.1.12}I\IeC {\textquoteright }ve created my distribution network, but I haven\IeC {\textquoteright }t assigned any Rooms yet. Is there a way to move my Equipment into Rooms?}{211}{subsection.5.1.12}
+\contentsline {subsection}{\numberline {5.1.13}I have an existing building which I would like to model. Is it appropriate to use THRUX? How would I start? What\IeC {\textquoteright }s the fastest way to do that?}{211}{subsection.5.1.13}
+\contentsline {subsection}{\numberline {5.1.14}I\IeC {\textquoteright }ve turned Design Assistance off and manually changed feeder sizes. Is there a way to recalculate a circuit\IeC {\textquoteright }s code-minimum requirements?}{211}{subsection.5.1.14}
+\contentsline {subsection}{\numberline {5.1.15}How do I see what\IeC {\textquoteright }s included in each update?}{211}{subsection.5.1.15}
+\contentsline {section}{\numberline {5.2}\sphinxstylestrong {Architectural}}{212}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Do I need to create the Architectural Elements or do I need to use the Floor Plans Workspace?}{212}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}I\IeC {\textquoteright }m working in the Floor Plans. How do I create my columns and floors?}{212}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Is there a way to move my equipment in one Room to another location?}{212}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}I\IeC {\textquoteright }m trying to enter decimal values into my floor heights. Why am I getting an error?}{212}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}\sphinxstylestrong {Electrical Calculations}}{212}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}What is Load Capacity?}{212}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Is there a way to manually override a load?}{213}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}What is \% Design Spare Capacity?}{214}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}What is Net Load?}{215}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}How do I enter the available SCC from the Utility?}{215}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}How is the Length of a Bus Duct Determined?}{215}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}How do bus duct voltage drop calculations work?}{216}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.8}I know the area or square footage of a space. How do I model that as a load?}{216}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}How do residential load calculations work?}{217}{subsection.5.3.9}
+\contentsline {subsection}{\numberline {5.3.10}How do I model a tap?}{217}{subsection.5.3.10}
+\contentsline {subsubsection}{\numberline {5.3.10.1}Bus Node}{217}{subsubsection.5.3.10.1}
+\contentsline {subsubsection}{\numberline {5.3.10.2}Tap Node}{218}{subsubsection.5.3.10.2}
+\contentsline {subsection}{\numberline {5.3.11}How do I Diversify Loads?}{220}{subsection.5.3.11}
+\contentsline {subsection}{\numberline {5.3.12}Is there a way to implement a conditional constraint for sizing Equipment of loads greater than a specific amperage to require copper over aluminum?}{220}{subsection.5.3.12}
+\contentsline {chapter}{\numberline {6}Definitions}{221}{chapter.6}
+\contentsline {section}{\numberline {6.1}Definitions}{221}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Default Model Parameters}{221}{subsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.1}Circuit}{221}{subsubsection.6.1.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.2}MV Circuit}{221}{subsubsection.6.1.1.2}
+\contentsline {subsubsection}{\numberline {6.1.1.3}Mechanical}{221}{subsubsection.6.1.1.3}
+\contentsline {subsubsection}{\numberline {6.1.1.4}Distribution Board}{222}{subsubsection.6.1.1.4}
+\contentsline {subsubsection}{\numberline {6.1.1.5}Bus Duct}{222}{subsubsection.6.1.1.5}
+\contentsline {subsubsection}{\numberline {6.1.1.6}XFMR}{223}{subsubsection.6.1.1.6}
+\contentsline {subsubsection}{\numberline {6.1.1.7}Panelboard}{224}{subsubsection.6.1.1.7}
+\contentsline {subsubsection}{\numberline {6.1.1.8}ATS}{224}{subsubsection.6.1.1.8}
+\contentsline {subsubsection}{\numberline {6.1.1.9}Utility}{224}{subsubsection.6.1.1.9}
+\contentsline {subsubsection}{\numberline {6.1.1.10}Generator}{224}{subsubsection.6.1.1.10}
+\contentsline {subsection}{\numberline {6.1.2}Calculation Settings}{225}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Flag Settings Definitions}{225}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Custom Design Assistance Settings}{226}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Architectural Elements}{226}{subsection.6.1.5}
+\contentsline {subsubsection}{\numberline {6.1.5.1}X Comp/Y Comp}{226}{subsubsection.6.1.5.1}
+\contentsline {subsubsection}{\numberline {6.1.5.2}Floor}{226}{subsubsection.6.1.5.2}
+\contentsline {subsubsection}{\numberline {6.1.5.3}Space Type}{227}{subsubsection.6.1.5.3}
+\contentsline {subsubsection}{\numberline {6.1.5.4}Room}{227}{subsubsection.6.1.5.4}
+\contentsline {subsubsection}{\numberline {6.1.5.5}Riser}{228}{subsubsection.6.1.5.5}
+\contentsline {subsubsection}{\numberline {6.1.5.6}Architectural Package}{228}{subsubsection.6.1.5.6}
+\contentsline {subsubsection}{\numberline {6.1.5.7}Appliance}{228}{subsubsection.6.1.5.7}
+\contentsline {subsubsection}{\numberline {6.1.5.8}Unit Type}{228}{subsubsection.6.1.5.8}
+\contentsline {subsubsection}{\numberline {6.1.5.9}Apartment}{229}{subsubsection.6.1.5.9}
+\contentsline {subsubsection}{\numberline {6.1.5.10}Apartment Package}{229}{subsubsection.6.1.5.10}
+\contentsline {subsubsection}{\numberline {6.1.5.11}Load Allocation}{229}{subsubsection.6.1.5.11}
+\contentsline {subsubsection}{\numberline {6.1.5.12}Diversification}{230}{subsubsection.6.1.5.12}
+\contentsline {subsection}{\numberline {6.1.6}Equipment Definitions}{230}{subsection.6.1.6}
+\contentsline {subsubsection}{\numberline {6.1.6.1}General Properties}{230}{subsubsection.6.1.6.1}
+\contentsline {subsubsection}{\numberline {6.1.6.2}Load Properties}{231}{subsubsection.6.1.6.2}
+\contentsline {subsubsection}{\numberline {6.1.6.3}Bus Structure Properties}{231}{subsubsection.6.1.6.3}
+\contentsline {subsubsection}{\numberline {6.1.6.4}Construction Properties}{231}{subsubsection.6.1.6.4}
+\contentsline {subsubsection}{\numberline {6.1.6.5}Accessories Properties}{231}{subsubsection.6.1.6.5}
+\contentsline {subsubsection}{\numberline {6.1.6.6}Load Readings Properties}{232}{subsubsection.6.1.6.6}
+\contentsline {subsubsection}{\numberline {6.1.6.7}Cable Properties}{232}{subsubsection.6.1.6.7}
+\contentsline {subsubsection}{\numberline {6.1.6.8}Conduit Properties}{232}{subsubsection.6.1.6.8}
+\contentsline {subsubsection}{\numberline {6.1.6.9}Network Reading Properties}{233}{subsubsection.6.1.6.9}
+\contentsline {subsubsection}{\numberline {6.1.6.10}Mechanical}{233}{subsubsection.6.1.6.10}
+\contentsline {subsubsection}{\numberline {6.1.6.11}Distribution Board}{234}{subsubsection.6.1.6.11}
+\contentsline {subsubsection}{\numberline {6.1.6.12}XFMR}{235}{subsubsection.6.1.6.12}
+\contentsline {subsubsection}{\numberline {6.1.6.13}Architectural Load}{236}{subsubsection.6.1.6.13}
+\contentsline {subsubsection}{\numberline {6.1.6.14}Fire Pump}{236}{subsubsection.6.1.6.14}
+\contentsline {subsubsection}{\numberline {6.1.6.15}Panelboard}{237}{subsubsection.6.1.6.15}
+\contentsline {subsubsection}{\numberline {6.1.6.16}ATS/STS}{238}{subsubsection.6.1.6.16}
+\contentsline {subsubsection}{\numberline {6.1.6.17}Bus Duct}{239}{subsubsection.6.1.6.17}
+\contentsline {subsubsection}{\numberline {6.1.6.18}Switch Board}{240}{subsubsection.6.1.6.18}
+\contentsline {subsubsection}{\numberline {6.1.6.19}Generic Load}{240}{subsubsection.6.1.6.19}
+\contentsline {subsubsection}{\numberline {6.1.6.20}Bus Node}{241}{subsubsection.6.1.6.20}
+\contentsline {subsubsection}{\numberline {6.1.6.21}Elevator}{241}{subsubsection.6.1.6.21}
+\contentsline {subsubsection}{\numberline {6.1.6.22}Tap Node}{242}{subsubsection.6.1.6.22}
+\contentsline {chapter}{Index}{243}{section*.11}

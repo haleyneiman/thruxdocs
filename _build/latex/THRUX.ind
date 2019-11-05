@@ -1,0 +1,46 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter D
+  \item \spxentry{Deleting}, \hyperpage{147}
+
+  \indexspace
+  \bigletter E
+  \item \spxentry{Editing Equipment}, \hyperpage{147}
+  \item \spxentry{Exporting - Schedules}, \hyperpage{164}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{Getting Started}, \hyperpage{46}
+
+  \indexspace
+  \bigletter H
+  \item \spxentry{How do I edit the properties of a circuit? - Schedules}, \hyperpage{151}
+  \item \spxentry{How do I model a load shedding sequence?}, \hyperpage{140}
+  \item \spxentry{How do I Reset to the Code Minimum values?}, \hyperpage{150}
+  \item \spxentry{How do I use the Scenario Manager?}, \hyperpage{140}
+  \item \spxentry{How to Copy Equipment - One-Line}, \hyperpage{118}
+  \item \spxentry{How to Create a Source}, \hyperpage{114}
+
+  \indexspace
+  \bigletter I
+  \item \spxentry{I've manually modified the circuit elements.  Is there a way to reset to the code minimum values?}, 
+		\hyperpage{150}
+  \item \spxentry{Is there a way to Disable all Flags?}, \hyperpage{201}
+  \item \spxentry{Is there a way to navigate from the One-Line to another Workspace like the Schedules?}, 
+		\hyperpage{154}
+  \item \spxentry{Is there a way to reorder circuits on my distribution equipment?}, 
+		\hyperpage{151}
+
+  \indexspace
+  \bigletter S
+  \item \spxentry{Schedules - Adding}, \hyperpage{147}
+
+  \indexspace
+  \bigletter W
+  \item \spxentry{Why Can't I Add Equipment to this Distribution Board?}, \hyperpage{153}
+
+\end{sphinxtheindex}

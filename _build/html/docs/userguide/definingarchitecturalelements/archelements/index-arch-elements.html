@@ -1,0 +1,697 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Additional Commands &mdash; THRUX 1.0.0.72 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Navigation Overview" href="../../buildingelectricalmodel/riser/index-riser.html" />
+    <link rel="prev" title="Additional Commands" href="../floorplans/index-floor-plans.html" /> 
+
+  
+  <script src="../../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> THRUX
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table Of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/index-thrux.html"><strong>Introduction</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../introduction/index-thrux.html#what-is-thrux"><strong>What is THRUX?</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../introduction/index-thrux.html#new-user"><strong>New User?</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../introduction/index-thrux.html#setting-up-your-account-installation-and-receiving-updates"><strong>Setting Up Your Account, Installation, and Receiving Updates</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../introduction/index-thrux.html#accounts-projects-branches-and-subcriptions"><strong>Accounts, Projects, Branches, and Subcriptions</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../introduction/index-thrux.html#thrux-basic">THRUX Basic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../introduction/index-thrux.html#thrux-professional">THRUX Professional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../introduction/index-thrux.html#thrux-team">THRUX Team</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../introduction/index-thrux.html#storage-and-recovery-options"><strong>Storage and Recovery Options</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../introduction/index-thrux.html#contact-us-support"><strong>Contact Us/Support</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Product Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../productoverview/index-product_overview.html"><strong>Code-Compliant Design</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../productoverview/index-product_overview.html#flag-tracker">Flag Tracker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productoverview/index-product_overview.html#studies">Studies</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../productoverview/index-product_overview.html#revit-interoperability"><strong>Revit Interoperability</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../productoverview/index-product_overview.html#pricing"><strong>Pricing</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../productoverview/index-product_overview.html#pricing-report">Pricing Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productoverview/index-product_overview.html#price-monitoring">Price Monitoring</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../productoverview/index-product_overview.html#branching"><strong>Branching</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorial Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorial/index-tutorial.html"><strong>Creating a New Project</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#first-steps">First Steps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorial/index-tutorial.html#roadmap">Roadmap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorial/index-tutorial.html#creating-the-architectural-model"><strong>Creating the Architectural Model</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#creating-columns-and-floors">Creating Columns and Floors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#creating-rooms">Creating Rooms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#creating-stacked-rooms-or-a-riser">Creating Stacked Rooms or a Riser</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorial/index-tutorial.html#modeling-the-electrical-system"><strong>Modeling the Electrical System</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#riser">Riser</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorial/index-tutorial.html#placing-rooms">Placing Rooms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorial/index-tutorial.html#creating-a-source">Creating a Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorial/index-tutorial.html#creating-connections">Creating Connections</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorial/index-tutorial.html#copying-and-pasting-equipment">Copying and Pasting Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorial/index-tutorial.html#moving-equipment-floors-or-rooms">Moving Equipment, Floors, or Rooms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorial/index-tutorial.html#creating-transfer-switches">Creating Transfer Switches</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#one-line">One-Line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#schedules">Schedules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorial/index-tutorial.html#exporting-studies-and-reporting"><strong>Exporting, Studies, and Reporting</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#exporting-to-autocad">Exporting to AutoCAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorial/index-tutorial.html#studies-and-reporting">Studies and Reporting</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">User Guide - Getting Started</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html"><strong>Signing In</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#navigating-thrux"><strong>Navigating THRUX</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#workspace-toolbar">Workspace Toolbar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#explorer-toolbar">Explorer Toolbar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#navigation-bar">Navigation Bar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#additional-commands">Additional Commands</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#creating-a-new-project"><strong>Creating a New Project</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#opening-an-existing-project">Opening an Existing Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#project-settings">Project Settings</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../projectsettings/defaultmodelparameters/index-default_model_parameters.html">Default Model Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../projectsettings/calculationsettings/index-calculation_settings.html">Calculation Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../projectsettings/autosizingfilters/index-auto_sizing_filters.html">Auto-Sizing Filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../projectsettings/flagsettings/index-flag_settings.html">Flag Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../projectsettings/customdesignassistancesettings/index-custom_design_assistance_settings.html">Custom Design Assistance Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../projectsettings/laborrates/index-labor_rates.html"><strong>Labor Rates</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#roadmap">Roadmap</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index-user_guide.html#defining-architectural-elements"><strong>Defining Architectural Elements</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#overview">Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../index-user_guide.html#equipment-distances">Equipment Distances</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../index-user_guide.html#calculated-length">Calculated Length</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../index-user_guide.html#manual-added-length">Manual Added Length</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../index-user_guide.html#net-length">Net Length</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../index-user_guide.html#loading-system">Loading System</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#floor-plans">Floor Plans</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../floorplans/index-floor-plans.html">Additional Commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../floorplans/index-floor-plans.html#setup-wizard">Setup Wizard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../floorplans/index-floor-plans.html#grid-editor">Grid Editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../floorplans/index-floor-plans.html#creation-mode">Creation Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../floorplans/index-floor-plans.html#move-equipment">Move Equipment</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index-user_guide.html#architectural-elements">Architectural Elements</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Additional Commands</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#architectural-package">Architectural Package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#load-allocation">Load Allocation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#diversification">Diversification</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#modeling-residential-loads">Modeling Residential Loads</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#appliances">Appliances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#unit-type">Unit Type</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#apartment">Apartment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#apartment-package">Apartment Package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#mechanical-entities">Mechanical Entities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#building-the-electrical-model"><strong>Building the Electrical Model</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#id7">Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../index-user_guide.html#hosted-vs-unhosted-systems">Hosted vs. Unhosted Systems</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#riser">Riser</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html">Navigation Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#floor-navigator">Floor Navigator</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#floor-elevations">Floor Elevations</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#riser-toolbox">Riser Toolbox</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#hidden-elements">Hidden Elements</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#add-architectural-elements">Add Architectural Elements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#add-electrical-equipment">Add Electrical Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#connecting-equipment">Connecting Equipment</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#resetting-connections">Resetting Connections</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#copying-equipment">Copying Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#moving-equipment">Moving Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#resizing-equipment">Resizing Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#navigate">Navigate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/riser/index-riser.html#converting-to-bus-duct">Converting to Bus Duct</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#one-line">One-Line</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html">Add a Source</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#short-circuit-current">Short Circuit Current</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#add-equipment">Add Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#copy-paste-equipment">Copy/Paste Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#delete-equipment-delete-network">Delete Equipment/Delete Network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#dragging-rehosting-equipment">Dragging/Rehosting Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#navigate">Navigate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#expanding-collapsing-equipment">Expanding/Collapsing Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#changing-multiple-equipment-properties">Changing Multiple Equipment Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#reset-to-code-minimum">Reset to Code Minimum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#workspace-toolbox">Workspace Toolbox</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#searching">Searching</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#load-calculations">Load Calculations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#property-tags-quick-views">Property Tags/Quick Views</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#assigning-room-locations">Assigning Room Locations</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#routing-through-a-riser-shaft">Routing Through a Riser Shaft</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#one-line-view-selectors">One-Line View Selectors</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#load-flow">Load Flow</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#isolated-systems">Isolated Systems</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#creating-a-transfer-switch">Creating a Transfer Switch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#settings">Settings</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#scenario-manager">Scenario Manager</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/one-line/index-one-line.html#bus-duct">Bus Duct</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#schedules">Schedules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html">Open Schedule</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#adding-deleting-editing-equipment">Adding, Deleting, Editing Equipment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#copy-paste-circuits">Copy/Paste Circuits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#select-all">Select All</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#reset-to-code-minimum">Reset to Code Minimum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#moving-rehosting-equipment-or-reordering-circuits">Moving, Rehosting Equipment, or Reordering Circuits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#lock-unlock">Lock/Unlock</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#adding-ocpd-s">Adding OCPD’s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#navigate">Navigate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#comparing-schedules-between-branches">Comparing Schedules Between Branches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#mlo-main-lug-only">MLO - Main Lug Only</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#configure-as-tap">Configure as Tap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#converting-breaker-switch-and-fuse">Converting Breaker/Switch and Fuse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#multi-pole-circuits">Multi-Pole Circuits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#poles">Poles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#schedule-views">Schedule Views</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/schedules/index-schedules.html#exporting">Exporting</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#flag-tracker">Flag Tracker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/flagtracker/index-flag_tracker.html">Using the Flag Tracker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../buildingelectricalmodel/flagtracker/index-flag_tracker.html#navigation">Navigation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../index-user_guide.html#studies">Studies</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/studies/index-studies.html">Voltage Drop, Short Circuit, Loading Studies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/studies/index-studies.html#searching">Searching</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/studies/index-studies.html#navigate">Navigate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/studies/index-studies.html#batch-changes-and-editing">Batch Changes and Editing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../buildingelectricalmodel/studies/index-studies.html#printing-and-exporting">Printing and Exporting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#building-the-mechanical-model"><strong>Building the Mechanical Model</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../buildingmechanicalmodel/index-building_mechanical_model.html">Building the Mechanical Model</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#building-the-plumbing-and-fire-protection-model"><strong>Building the Plumbing and Fire Protection Model</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../buildingpfpmodel/index-building_pfp_model.html">Building the PFP Model</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#pricing-model"><strong>Pricing Model</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../pricingmodel/pricingreport/index-pricing_report.html">Pricing Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pricingmodel/pricetracker/index-price_tracker.html">Price Tracker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pricingmodel/equipmentrates/index-equipment_rates.html">Equipment Rates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#project-management"><strong>Project Management</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../projectmanagement/issuancelog/index-issuance_log.html">Branching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projectmanagement/changetracking/index-change_tracking.html">Change Tracking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projectmanagement/accessibility/index-accessibility.html">Accessibility</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#explorers-and-other-utility-tools"><strong>Explorers and other Utility Tools</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../explorersandutilitytools/propertiesexplorer/index-properties_explorer.html">Properties Explorer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explorersandutilitytools/cascademonitor/index-cascade_monitor.html">Cascade Monitor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explorersandutilitytools/dataexporter/index-data_exporter.html">Data Exporter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explorersandutilitytools/codesreference/index-codes_reference.html">Codes Reference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html">Status Bar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#design-assistance">Design Assistance</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#full-design-assistance">Full Design Assistance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#custom-design-assistance">Custom Design Assistance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#no-design-assistance">No Design Assistance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#force-calculation-refresh">Force Calculation Refresh</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#auto-calculate">Auto Calculate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#toggle-flags">Toggle Flags</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../explorersandutilitytools/statusbar/index-status_bar.html#version">Version</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#recovery-options"><strong>Recovery Options</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#automatic-updates"><strong>Automatic Updates</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#revit-interoperability"><strong>Revit Interoperability</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../index-user_guide.html#autocad-interoperability"><strong>AutoCAD Interoperability</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">FAQ's</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html"><strong>General</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-thrux-compatible-with-revit">Is THRUX compatible with Revit?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-export-my-drawings-to-autocad">How do I export my drawings to AutoCAD?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-invite-someone-else-to-my-project">How do I invite someone else to my project?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-m-working-in-the-one-line-how-do-i-create-equipment">I’m working in the One-Line.  How do I create equipment?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-m-not-seeing-everything-on-my-riser-i-created-equipment-in-the-one-line-how-come-it-doesn-t-show-up">I’m not seeing everything on my Riser.  I created equipment in the One-Line.  How come it doesn’t show up?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-ve-created-a-riser-but-i-m-starting-to-run-out-of-space-is-there-any-way-to-shift-everything-upwards-if-i-move-the-floor-will-it-update-the-elevations-will-it-affect-my-lengths-and-voltage-drop-calculations">I’ve created a Riser, but I’m starting to run out of space.  Is there any way to shift everything upwards?  If I move the floor will it update the elevations?  Will it affect my lengths and voltage drop calculations?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-there-a-way-to-create-groups-of-equipment">Is there a way to create groups of equipment?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-there-a-way-to-create-a-single-feed-for-multiple-motors-or-elevators">Is there a way to create a single feed for multiple motors or elevators?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-ve-created-a-network-but-i-forgot-to-add-a-distribution-board-or-transfer-switch-or-some-type-of-intermediate-node-how-can-i-add-this-without-deleting-what-i-have">I’ve created a network, but I forgot to add a distribution board, or transfer switch, or some type of intermediate node.  How can I add this without deleting what I have?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-create-a-bus-duct">How do I create a bus duct?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-connect-a-transfer-switch">How do I connect a transfer switch?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-ve-created-my-distribution-network-but-i-haven-t-assigned-any-rooms-yet-is-there-a-way-to-move-my-equipment-into-rooms">I’ve created my distribution network, but I haven’t assigned any Rooms yet.  Is there a way to move my Equipment into Rooms?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-ve-turned-design-assistance-off-and-manually-changed-feeder-sizes-is-there-a-way-to-recalculate-a-circuit-s-code-minimum-requirements">I’ve turned Design Assistance off and manually changed feeder sizes.  Is there a way to recalculate a circuit’s code-minimum requirements?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-see-what-s-included-in-each-update">How do I see what’s included in each update?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html#architectural"><strong>Architectural</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-create-the-architectural-elements-or-do-i-need-to-use-the-floor-plans-workspace">Do I need to create the Architectural Elements or do I need to use the Floor Plans Workspace?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-m-working-in-the-floor-plans-how-do-i-create-my-columns-and-floors">I’m working in the Floor Plans.  How do I create my columns and floors?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-there-a-way-to-move-my-equipment-in-one-room-to-another-location">Is there a way to move my equipment in one Room to another location?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-m-trying-to-enter-decimal-values-into-my-floor-heights-why-am-i-getting-an-error">I’m trying to enter decimal values into my floor heights.  Why am I getting an error?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html#electrical-calculations"><strong>Electrical Calculations</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-load-capacity">What is Load Capacity?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-there-a-way-to-manually-override-a-load">Is there a way to manually override a load?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-design-spare-capacity">What is % Design Spare Capacity?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-net-load">What is Net Load?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-enter-the-available-scc-from-the-utility">How do I enter the available SCC from the Utility?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-is-the-length-of-a-bus-duct-determined">How is the Length of a Bus Duct Determined?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-bus-duct-voltage-drop-calculations-work">How do bus duct voltage drop calculations work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-know-the-area-or-square-footage-of-a-space-how-do-i-model-that-as-a-load">I know the area or square footage of a space.  How do I model that as a load?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-residential-load-calculations-work">How do residential load calculations work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-model-a-tap">How do I model a tap?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../faq.html#bus-node">Bus Node</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../faq.html#tap-node">Tap Node</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-diversify-loads">How do I Diversify Loads?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-there-a-way-to-implement-a-conditional-constraint-for-sizing-equipment-of-loads-greater-than-a-specific-amperage-to-require-copper-over-aluminum">Is there a way to implement a conditional constraint for sizing Equipment of loads greater than a specific amperage to require copper over aluminum?</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Definitions</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../definitions/index-definitions.html">Definitions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../definitions/index-definitions.html#default-model-parameters">Default Model Parameters</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#circuit">Circuit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#mv-circuit">MV Circuit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#mechanical">Mechanical</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#distribution-board">Distribution Board</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#bus-duct">Bus Duct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#xfmr">XFMR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#panelboard">Panelboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#ats">ATS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#utility">Utility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#generator">Generator</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../definitions/index-definitions.html#calculation-settings">Calculation Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../definitions/index-definitions.html#flag-settings-definitions">Flag Settings Definitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../definitions/index-definitions.html#custom-design-assistance-settings">Custom Design Assistance Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../definitions/index-definitions.html#architectural-elements">Architectural Elements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#x-comp-y-comp">X Comp/Y Comp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#floor">Floor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#space-type">Space Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#room">Room</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#riser">Riser</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#architectural-package">Architectural Package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#appliance">Appliance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#unit-type">Unit Type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#apartment">Apartment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#apartment-package">Apartment Package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#load-allocation">Load Allocation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#diversification">Diversification</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../definitions/index-definitions.html#equipment-definitions">Equipment Definitions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#mechanical-definition">Mechanical</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#distribution-board-definition">Distribution Board</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#id6">XFMR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#architectural-load">Architectural Load</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#fire-pump">Fire Pump</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#panelboard-definition">Panelboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#ats-sts">ATS/STS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#bus-duct-definition">Bus Duct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#switch-board">Switch Board</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#generic-load">Generic Load</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#bus-node">Bus Node</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#elevator">Elevator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../definitions/index-definitions.html#tap-node">Tap Node</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">THRUX</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index-user_guide.html"><strong>Signing In</strong></a> &raquo;</li>
+        
+      <li>Additional Commands</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p id="arch-elements">Click on each of the tabs to view tables of each of the entity’s components.</p>
+<div class="figure align-center" id="id4">
+<img alt="../../../../_images/architectural_elements-1.PNG" src="../../../../_images/architectural_elements-1.PNG" />
+<p class="caption"><span class="caption-text">Viewing Floors in the Architectural Elements Workspace</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p>These tables have additional functions which allow the ability to create, copy, and export.</p>
+<div class="section" id="additional-commands">
+<h1>Additional Commands<a class="headerlink" href="#additional-commands" title="Permalink to this headline">¶</a></h1>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 86%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Command</strong></p></th>
+<th class="head"><p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Select All</p></td>
+<td><p>Use CTRL+A to select all entities.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cut/Copy</p></td>
+<td><p>Use CTRL+C to copy and CTRL+C to cut.</p></td>
+</tr>
+<tr class="row-even"><td><p>Paste</p></td>
+<td><p>Use CTRL+V to paste.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Filtering</p></td>
+<td><p>Filter items by using the sorting button.</p></td>
+</tr>
+<tr class="row-even"><td><p>Exporting</p></td>
+<td><p>Use the export button to export your model into .csv, .xml, or .json.  It is also possible to export content by copying and pasting into Excel.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="architectural-package">
+<span id="id1"></span><h2>Architectural Package<a class="headerlink" href="#architectural-package" title="Permalink to this headline">¶</a></h2>
+<p>Architectural Packages are used to model the load or power density of a group of architectural elements.</p>
+<p>For example, a group of Floors could each have their Space Type designated as Office, which has a specific power density.  This group of Floors can be packaged as a load, and fed from distribution Equipment.</p>
+<p>Select a group of Floors or Rooms.  Then, in the orange text box, enter a name for the Package and then click the (+) button.  This is packaging a group of Floors as a load.</p>
+<div class="figure align-center" id="id5">
+<img alt="../../../../_images/Architectural_Package-1.PNG" src="../../../../_images/Architectural_Package-1.PNG" />
+<p class="caption"><span class="caption-text">Creating an Architectural Package for a group of Floors</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p>To view the Package, click the Architectural Package tab.  These loads can be attached to any distribution Equipment in the network.</p>
+<div class="figure align-center" id="id6">
+<img alt="../../../../_images/Architectural_Package-2.PNG" src="../../../../_images/Architectural_Package-2.PNG" />
+<p class="caption"><span class="caption-text">Viewing the Load of Architectural Packages</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="load-allocation">
+<span id="id2"></span><h2>Load Allocation<a class="headerlink" href="#load-allocation" title="Permalink to this headline">¶</a></h2>
+<p>Load Allocations are used to supplement the Architectural Packages.  In addition to Floor or Room power densities, power can be allocated to specific Floors.</p>
+<p>You may want to account for a load that only occurs on Floors of a specific Space Type.  For example, if you wanted to account for a 20 hp motor on every Office Floor, you would need to create a new Load Allocation.  Filter the Load Allocation by the Floor Space Type specified for Office.</p>
+<div class="figure align-center" id="id7">
+<img alt="../../../../_images/Load_Allocation-1.PNG" src="../../../../_images/Load_Allocation-1.PNG" />
+<p class="caption"><span class="caption-text">Creating a Load Allocation</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<p>Then use the (+) button to associate the Load Allocation with an Architectural Package.</p>
+<div class="figure align-center" id="id8">
+<img alt="../../../../_images/Load_Allocation-2.PNG" src="../../../../_images/Load_Allocation-2.PNG" />
+<p class="caption"><span class="caption-text">Allocating additional loads to an Apartment Package</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="diversification">
+<span id="id3"></span><h2>Diversification<a class="headerlink" href="#diversification" title="Permalink to this headline">¶</a></h2>
+<p>Diversification allows you to create customizable diversity factors which can be applied to different sections or levels of the distribution system.</p>
+<p>A Root Diversity is a factor applied to Root Level loads.  A Root Diversity cannot be less than zero and cannot be greater than the Distribution Diversity.</p>
+<p>A Distribution Diversity is a factor applied to Distribution Level loads.</p>
+<p>An End-of-Line Diversity is a factor applied to End-of-Line Loads.</p>
+<div class="figure align-center" id="id9">
+<img alt="../../../../_images/Diversification-1.PNG" src="../../../../_images/Diversification-1.PNG" />
+<p class="caption"><span class="caption-text">Creating a Custom Diversification Class</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+<p>In the example below, a Custom Diversity class called DIV A is created and applied to a small distribution network.</p>
+<p>EOL (End-of-Line) , DIST. (Distribution), and ROOT loads have diversity factors of 1.0, 0.5, and 0.25, respectively, applied to them.</p>
+<p>At the Diversity Position DIST., or DB-1, a factor of 0.5 is applied to loads L1 and L2, and summed together.  Therefore, the Net Load of DB-1 is 10 kVA.</p>
+<p>At DB-2, the same diversities are applied to loads L3 and L4, and the Net Load is also 10 kVA.</p>
+<p>At the Diversity Position ROOT, or MDB, a factor of 0.25 is applied to all of its loads, L1, L2, L3, and L4, and summed together.</p>
+<p>If any downstream Equipment of MDB has a Load Override value, that value would be diversified instead of the connected load.</p>
+<div class="figure align-center" id="id10">
+<img alt="../../../../_images/Diversification-2.PNG" src="../../../../_images/Diversification-2.PNG" />
+<p class="caption"><span class="caption-text">Electrical Distribution Network utilizing a Custom Diversification Class</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="modeling-residential-loads">
+<h1>Modeling Residential Loads<a class="headerlink" href="#modeling-residential-loads" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="appliances">
+<h2>Appliances<a class="headerlink" href="#appliances" title="Permalink to this headline">¶</a></h2>
+<p>Appliances are used to calculate the load of residential projects and are grouped by classes as defined by the NEC.  Appliances are assigned to a Unit Type.</p>
+</div>
+<div class="section" id="unit-type">
+<h2>Unit Type<a class="headerlink" href="#unit-type" title="Permalink to this headline">¶</a></h2>
+<p>Unit Types are used to group Appliances together in order to calculate the load of residential projects.  A Unit Type is assigned to an Apartment.</p>
+<div class="figure align-center" id="id11">
+<img alt="../../../../_images/Unit_Type.PNG" src="../../../../_images/Unit_Type.PNG" />
+<p class="caption"><span class="caption-text">Assigning Appliances to a Unit Type</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="apartment">
+<h2>Apartment<a class="headerlink" href="#apartment" title="Permalink to this headline">¶</a></h2>
+<p>An Apartment contains a Unit Type.  It also contains information regarding its location and loading information.  A group of Apartments form an Apartment Package.</p>
+</div>
+<div class="section" id="apartment-package">
+<h2>Apartment Package<a class="headerlink" href="#apartment-package" title="Permalink to this headline">¶</a></h2>
+<p>Apartment Packages are used to group Apartments together in order to calculate a load.</p>
+<div class="figure align-center" id="id12">
+<img alt="../../../../_images/Apartment_Package.PNG" src="../../../../_images/Apartment_Package.PNG" />
+<p class="caption"><span class="caption-text">Assigning Apartments to an Apartment Package</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="mechanical-entities">
+<h1>Mechanical Entities<a class="headerlink" href="#mechanical-entities" title="Permalink to this headline">¶</a></h1>
+<p>Coming soon.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../buildingelectricalmodel/riser/index-riser.html" class="btn btn-neutral float-right" title="Navigation Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../floorplans/index-floor-plans.html" class="btn btn-neutral" title="Additional Commands" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, KT.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+   
+  <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script> 
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script> 
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script> 
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script> 
+    <script type="text/javascript" src="../../../../_static/language_data.js"></script> 
+     
+
+  
+
+  <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
