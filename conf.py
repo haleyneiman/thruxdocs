@@ -91,7 +91,7 @@ html_theme_options = {
 'prev_next_buttons_location': 'bottom'
 }
 
-#html_logo = "docs\images\E_Purple@0.5x.png"
+html_logo = "_static/E_Purple@0.5x.png"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
