@@ -89,10 +89,9 @@ html_theme_options = {
 'display_version': True,
 'collapse_navigation': False,
 'prev_next_buttons_location': 'bottom'
-'logo' = _static/E_Purple.png
 }
 
-
+html_logo : '_static/E_Purple.png'
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
