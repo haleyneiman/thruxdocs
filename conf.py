@@ -89,7 +89,7 @@ html_theme_options = {
 'display_version': True,
 'collapse_navigation': False,
 'prev_next_buttons_location': 'bottom'
-'html_logo' = _static/E_Purple.png
+'logo' = _static/E_Purple.png
 }
 
 
