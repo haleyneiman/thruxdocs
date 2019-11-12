@@ -95,7 +95,7 @@ Dragging/Rehosting Equipment
 
 To redirect an Equipment's source, click and drag the Equipment from its current source to a different source.
 
-.. figure:: images/one-line-rehost.PNG
+.. figure:: images/one-line-rehosting.PNG
     :align: center
 
     Rehosting MTR-2 to DB-1
