@@ -292,7 +292,7 @@ This load density can be placed or attached to different points in your system.
 
 The Area can be calculated or manually entered as a custom value.
 
-.. figure:: images/architectural_elements-1.PNG
+.. figure:: images/arch_elements-1.PNG
     :align: center
 
     The Floor tab of the Arch. Elements

@@ -71,7 +71,7 @@ To copy Equipment, select the Equipment.  Then, click Copy or use CTRL+C to copy
 
 Then select the Equipment you want to create a pasted copy of, and click Paste or use CTRL+V.
 
-.. figure:: images/one-line-copy_equipment.PNG
+.. figure:: images/one-line-copy-equipment.PNG
     :align: center
 
     Copying an Equipment will copy its entire downstream network
@@ -95,7 +95,7 @@ Dragging/Rehosting Equipment
 
 To redirect an Equipment's source, click and drag the Equipment from its current source to a different source.
 
-.. figure:: images/one-line-rehost.PNG
+.. figure:: images/one-line-rehosting.PNG
     :align: center
 
     Rehosting MTR-2 to DB-1
@@ -107,7 +107,7 @@ Navigate grants the ability to jump between Workspaces based on the current sele
 
 Some examples of navigation include viewing an Equipment's :ref:`Schedule <Schedules>`, location on the :ref:`Riser <Riser>`, location on the :ref:`Floor Plans <Floor-Plans>`, or the :ref:`Studies <Studies>` Workspace.
 
-.. figure:: images/one-line-navigate-1.PNG
+.. figure:: images/one-line-navigate.PNG
     :align: center
 
     Using the Selection Dial to navigate to other Workspaces

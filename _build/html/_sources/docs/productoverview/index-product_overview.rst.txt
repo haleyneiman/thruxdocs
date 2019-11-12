@@ -63,7 +63,7 @@ Pricing Report
 
 The :ref:`Pricing Report <Pricing-Report>` allows you to view a breakout of order of magnitude estimates based on the material and labor rates for the model.
 
-.. figure:: images/pricing-report-1.PNG
+.. figure:: images/Pricing-Report-1.PNG
     :align: center
 
     Pricing Report displaying the net cost of the model
