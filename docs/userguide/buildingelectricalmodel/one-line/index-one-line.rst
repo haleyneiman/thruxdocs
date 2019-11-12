@@ -243,7 +243,7 @@ Assign a Room by clicking in the text box.  If no Rooms are available, create th
 
 For the Distribution Board, MDB-1, note the :ref:`Calc. Length <Calculated-Length>` before and after a Room location is assigned.
 
-.. figure:: images/one-line-assigning-room-3.PNG
+.. figure:: images/one-line-assigning-room--3.PNG
     :align: center
 
     Select a Room by clicking in the text box
