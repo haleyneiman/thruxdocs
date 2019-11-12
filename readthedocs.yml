@@ -7,7 +7,7 @@ version: 2
 
 jobs:
 build:
-	image: latest
+  image: latest
 
 
 # Build documentation in the docs/ directory with Sphinx
