@@ -70,6 +70,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+# Suppress "WARNING: unknown mimetype for ..." https://github.com/IQSS/dataverse/issues/3391
+suppress_warnings = ['epub.unknown_project_files']
 
 # -- Options for HTML output -------------------------------------------------
 
