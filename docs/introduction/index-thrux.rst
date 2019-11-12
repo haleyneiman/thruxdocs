@@ -37,7 +37,7 @@ For installation, first visit the Account Portal and create an Account:
 
 http://thruxcoreweb.azurewebsites.net/AccountPortal
 
-.. figure:: images/Account_Portal-1.PNG
+.. figure:: images/account_portal-1.PNG
     :align: center
 
     Account Portal
