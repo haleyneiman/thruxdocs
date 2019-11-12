@@ -2,7 +2,7 @@
 
 Click on each of the tabs to view tables of each of the entity's components.  
 
-.. figure:: images/architectural_elements-1.PNG
+.. figure:: images/Architectural_Elements-1.PNG
     :align: center
 
     Viewing Floors in the Architectural Elements Workspace
