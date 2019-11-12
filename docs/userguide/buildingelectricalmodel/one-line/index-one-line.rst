@@ -71,7 +71,7 @@ To copy Equipment, select the Equipment.  Then, click Copy or use CTRL+C to copy
 
 Then select the Equipment you want to create a pasted copy of, and click Paste or use CTRL+V.
 
-.. figure:: images/one-line-copy-equipment.PNG
+.. figure:: images/one-line-copy_equipment.PNG
     :align: center
 
     Copying an Equipment will copy its entire downstream network
