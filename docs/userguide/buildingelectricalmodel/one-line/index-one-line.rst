@@ -107,7 +107,7 @@ Navigate grants the ability to jump between Workspaces based on the current sele
 
 Some examples of navigation include viewing an Equipment's :ref:`Schedule <Schedules>`, location on the :ref:`Riser <Riser>`, location on the :ref:`Floor Plans <Floor-Plans>`, or the :ref:`Studies <Studies>` Workspace.
 
-.. figure:: images/one-line-navigate-1.PNG
+.. figure:: images/one-line-navigate.PNG
     :align: center
 
     Using the Selection Dial to navigate to other Workspaces
