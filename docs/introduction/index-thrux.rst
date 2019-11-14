@@ -12,6 +12,10 @@ THRUX is a design environment aimed to unite engineering tools of the constructi
 
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost-conscious design assistance.
 
+.. image:: images/E_Purple.PNG
+  :align: center
+
+
 .. _New-User:
 
 **New User?**
