@@ -37,7 +37,8 @@ release = '1.0.0.84'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [ 'sphinx.ext.autodoc', 
+extensions = [
+    'sphinx.ext.autodoc',
 ]
 
 pdf_documents = [('docs/index', u'helpcontent', u'THRUX', u'KT'),]
@@ -79,7 +80,7 @@ suppress_warnings = ['epub.unknown_project_files']
 #
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = ["_themes", ]
-html_show_sourcelink = False
+html_show_sourcelink = True
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -89,7 +90,7 @@ html_theme_options = {
 'navigation_depth': 5,
 'display_version': True,
 'collapse_navigation': False,
-'prev_next_buttons_location': 'bottom',
+'prev_next_buttons_location': 'top',
 'logo_only': True
 }
 
@@ -99,7 +100,7 @@ html_logo : "docs/images/E_Purple.png"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
