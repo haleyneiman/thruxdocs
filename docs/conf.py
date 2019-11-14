@@ -14,6 +14,7 @@
 #
 import os
 import sys
+import re
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.append('docs')
 
@@ -38,7 +39,9 @@ release = '1.0.0.84'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.intersphinx',
     'sphinx.ext.autodoc',
+    'sphinxcontrib.httpdomain',
 ]
 
 pdf_documents = [('docs/index', u'helpcontent', u'THRUX', u'KT'),]
@@ -78,9 +81,14 @@ suppress_warnings = ['epub.unknown_project_files']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+intersphinx_mapping = {
+    'rtd': ('https://docs.readthedocs.io/en/latest/', None),
+    'sphinx': ('http://www.sphinx-doc.org/en/stable/', None),
+}
+
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = ["_themes", ]
-html_show_sourcelink = True
+html_show_sourcelink = False
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
