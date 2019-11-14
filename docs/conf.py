@@ -95,10 +95,12 @@ html_show_sourcelink = False
 # documentation.
 #
 html_theme_options = {
+'canonical_url': 'https://www.thrux.io',
+'display_version': False,
 'navigation_depth': 5,
 'display_version': True,
 'collapse_navigation': False,
-'prev_next_buttons_location': 'top',
+'prev_next_buttons_location': 'both',
 'logo_only': True
 }
 
