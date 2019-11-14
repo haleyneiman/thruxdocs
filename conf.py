@@ -40,9 +40,6 @@ release = '1.0.0.84'
 extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.autodoc',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
-    'sphinxcontrib.httpdomain',
 ]
 
 pdf_documents = [('docs/index', u'helpcontent', u'THRUX', u'KT'),]
