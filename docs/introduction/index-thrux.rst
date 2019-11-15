@@ -7,14 +7,14 @@ Engineering tools are scattered from paper to spreadsheets to analysis software 
 
 THRUX is a design environment aimed to unite engineering tools of the construction industry to provide consistent, transparent and flexible designs.
 
+.. image:: images/E_Purple.PNG
+  :align: center
+  :width: 75
+
 **What is THRUX?**
 ------------------
 
 THRUX is a cloud-based design environment suite that fills the market gap of streamlined building design calculations, by bridging the gap between Engineers/Designers, Architects and Contractors, providing iterative, cost-conscious design assistance.
-
-.. image:: images/E_Purple.PNG
-  :align: center
-
 
 .. _New-User:
 

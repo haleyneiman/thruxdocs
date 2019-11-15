@@ -1,7 +1,7 @@
 .. _Labor-Rates:
 
-**Labor Rates**
-================
+Labor Rates
+===========
 
 Labor rates for Journeyman and Foreman are customizable. 
 
