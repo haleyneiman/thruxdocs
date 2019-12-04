@@ -40,8 +40,56 @@ Select the Utility source.  Under the "Miscellaneous" property grouping, enter t
 
     Entering Available SCC (kA)
 
-
 .. _One-Line-Adding_Equipment:
+
+Add Equipment
+=============
+
+Click on the Utility and the Selection Dial will display a ring of options.  Selected Equipment will be highlighted by a purple circle, with additional options to Add, Copy, Paste, Delete, and Navigate to other Workspaces.  Click the + button to Add Equipment.
+
+.. figure:: images/one-line-add_equipment.PNG
+    :align: center
+
+    Selection Dial
+
+Select an Equipment type from the dropdown menu.  Give the Equipment a name.  In this case, specify a :ref:`Load Capacity <Load-Capacity>`, and click Select.
+
+.. figure:: images/one-line-add_dist_board.PNG
+    :align: center
+
+    New Network Wizard
+
+.. _One-Line-Splitting_Loads:
+
+Splitting Loads
+===============
+
+Click on the socket icon (Manage Linked Loads) to add a Linked Load.  A Linked Load is an existing Architectural Element which is modeled as a load.
+
+.. figure:: images/one-line-splitting_loads-1.PNG
+    :align: center
+
+    Adding a Linked Load to a Panelboard
+
+Add an existing load which is linked to the :ref:`Architectural Model <Arch.-Elements>`.
+
+.. figure:: images/one-line-splitting_loads-2.PNG
+    :align: center
+
+    Adding a "LVL 3" Floor as a load to a Panelboard
+
+In this case, the "LVL 3" load is being added to a single panel.  The panel carries the entire load.
+
+.. figure:: images/one-line-splitting_loads-3.PNG
+    :align: center
+
+As the load is split across multiple panels, the load gets distributed to their individual locations in the model.
+
+.. figure:: images/one-line-splitting_loads-3.PNG
+    :align: center
+
+    Linked Loads allow designers to split loads across panels
+
 
 Add Equipment
 =============
@@ -174,6 +222,25 @@ To recalculate or reset the values of a circuit to code-minimum values, right-cl
 
     Using Reset to Code Minimum
 
+.. index:: How do you fix voltage drop for an individual circuit?
+
+Correcting Voltage Drop
+=======================
+
+Instead of resetting to code minimum, it is possible to resize an individual circuit to remedy voltage drop.
+
+Right-click on an Equipment and use Correct Voltage Drop.
+
+.. figure:: images/one-line-correcting_voltage_drop-1.PNG
+    :align: center  
+
+    Correcting Voltage Drop on an individual run or circuit
+
+.. figure:: images/one-line-correcting_voltage_drop-2.PNG
+    :align: center  
+
+    Changes must be approved before they are implemented
+
 Workspace Toolbox
 =================
 
@@ -265,6 +332,30 @@ Assign a Riser and note the updated length.
     :align: center
 
     Routing Through a Riser
+
+.. index:: Is there a way to see how many conduits are going inside a shaft?
+.. _Shaft-Conduits-Summary
+
+^^^^^^^^^^^^^^^^^^^
+Connected Conduits
+^^^^^^^^^^^^^^^^^^^
+
+To view all of the conduits associated with a board, right-click the board, and select View Connected Conduits.
+
+.. figure:: images/One-Line-Connected-Conduits-1.PNG
+    :align: center
+
+    Viewing all conduits connected to MDB-1
+
+.. figure:: images/One-Line-Connected-Conduits-2.PNG
+    :align: center
+
+    The Shaft Conduit Summary can be displayed by Size, Priority, or Connection
+
+.. figure:: images/One-Line-Connected-Conduits-3.PNG
+    :align: center
+
+    The Shaft Conduit Summary can be displayed by Size, Priority, or Connection
 
 One-Line View Selectors
 -----------------------

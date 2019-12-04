@@ -25,9 +25,9 @@ copyright = '2019, KT'
 author = 'KT'
 
 # The short X.Y version
-version = '84'
+version = '98'
 # The full version, including alpha/beta/rc tags
-release = '1.0.0.84'
+release = '1.0.0.98'
 
 # -- General configuration ---------------------------------------------------
 
