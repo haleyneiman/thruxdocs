@@ -334,7 +334,7 @@ Assign a Riser and note the updated length.
     Routing Through a Riser
 
 .. index:: Is there a way to see how many conduits are going inside a shaft?
-.. _Shaft-Conduits-Summary
+.. _Shaft-Conduits-Summary:
 
 ^^^^^^^^^^^^^^^^^^^
 Connected Conduits
@@ -342,17 +342,17 @@ Connected Conduits
 
 To view all of the conduits associated with a board, right-click the board, and select View Connected Conduits.
 
-.. figure:: images/One-Line-Connected-Conduits-1.PNG
+.. figure:: images/one-line-connected_conduits-1.PNG
     :align: center
 
     Viewing all conduits connected to MDB-1
 
-.. figure:: images/One-Line-Connected-Conduits-2.PNG
+.. figure:: images/one-line-connected_conduits-2.PNG
     :align: center
 
     The Shaft Conduit Summary can be displayed by Size, Priority, or Connection
 
-.. figure:: images/One-Line-Connected-Conduits-3.PNG
+.. figure:: images/one-line-connected_conduits-3.PNG
     :align: center
 
     The Shaft Conduit Summary can be displayed by Size, Priority, or Connection
