@@ -3,5 +3,5 @@
 Building the Mechanical Model
 =================================
 
-Coming soon 2020!
+It's Here! 2020
 
