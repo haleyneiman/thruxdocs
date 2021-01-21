@@ -4,6 +4,7 @@ Click on each of the tabs to view tables of each of the entity's components.
 
 .. figure:: images/Architectural_Elements-1.PNG
     :align: center
+    :alt: elements
 
     Viewing Floors in the Architectural Elements Workspace
 
@@ -40,6 +41,7 @@ Select a group of Floors or Rooms.  Then, in the orange text box, enter a name f
 
 .. figure:: images/Architectural_Package-1.PNG
     :align: center
+    :alt: Architectural_Package
 
     Creating an Architectural Package for a group of Floors
 
@@ -47,6 +49,7 @@ To view the Package, click the Architectural Package tab.  These loads can be at
 
 .. figure:: images/Architectural_Package-2.PNG
     :align: center
+    :alt: package
 
     Viewing the Load of Architectural Packages
 
@@ -62,6 +65,7 @@ You may want to account for a load that only occurs on Floors of a specific Spac
 
 .. figure:: images/Load_Allocation-1.PNG
     :align: center
+    :alt: load allocation
 
     Creating a Load Allocation
 
@@ -69,6 +73,7 @@ Then use the (+) button to associate the Load Allocation with an Architectural P
 
 .. figure:: images/Load_Allocation-2.PNG
     :align: center
+    :alt: load allocation
 
     Allocating additional loads to an Apartment Package
 
@@ -88,6 +93,7 @@ An End-of-Line Diversity is a factor applied to End-of-Line Loads.
 
 .. figure:: images/Diversification-1.PNG
     :align: center
+    :alt: diversification
 
     Creating a Custom Diversification Class
 
@@ -105,6 +111,7 @@ If any downstream Equipment of MDB has a Load Override value, that value would b
 
 .. figure:: images/Diversification-2.PNG
     :align: center
+    :alt: diversification
 
     Electrical Distribution Network utilizing a Custom Diversification Class
 
@@ -125,6 +132,7 @@ Unit Types are used to group Appliances together in order to calculate the load 
 
 .. figure:: images/Unit_Type.PNG
     :align: center
+    :alt: unit type
 
     Assigning Appliances to a Unit Type
 
@@ -142,11 +150,6 @@ Apartment Packages are used to group Apartments together in order to calculate a
 
 .. figure:: images/Apartment_Package.PNG
     :align: center
+    :alt: apt package
 
     Assigning Apartments to an Apartment Package
-
-
-Mechanical Entities
--------------------
-
-Coming soon.
