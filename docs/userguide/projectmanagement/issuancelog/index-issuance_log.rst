@@ -7,7 +7,7 @@ Designers are often tasked to study different options in order to determine the 
 
 The initial Base scheme is also known as the Base Issuance, and should be the primary working Branch.  If a designer is asked to study an alternative option, create a Branch.  Designers can switch between Branches as necessary.
 
-To create a Branch, open the Issuance Log on the right sidebar.  
+To create a Branch, open the Team Explorer on the right sidebar.  
 
 .. figure:: images/issuance_log_1.PNG
     :align: center
