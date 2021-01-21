@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\productoverview"
+    "\\docs\\userguide"
   ],
-  "SelectedNode": "\\docs\\conf.py",
+  "SelectedNode": "\\docs\\userguide\\buildingmechanicalmodel",
   "PreviewInSolutionExplorer": false
 }
