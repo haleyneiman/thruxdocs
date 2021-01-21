@@ -147,7 +147,7 @@ To help guide the design process, refer to the Roadmap.  Clicking on each node w
 Overview
 ###################
 
-The goal of the Architectural Workspaces, :ref:`Floor Plans <Floor-Plans>` and :ref:`Arch. Elements <Arch.-Elements>`, is to provide a way for you to quickly mass the load of a building.  These locations aid with point-to-point calculations such as voltage drop.
+The goal of the Architectural Workspaces, :ref:`Floor Plans <Floor-Plans>` and :ref:`Elements <Arch.-Elements>`, is to provide a way for you to quickly mass the load of a building.  These locations aid with point-to-point calculations such as voltage drop.
 
 However, these Workspaces are completely optional.  For a smaller project, you may not find it necessary to set up these Workspaces and instead, find it faster to manually input feeder lengths in the :ref:`One-Line <One-Line>`.  
 
@@ -314,12 +314,15 @@ Studies
 **Building the Mechanical Model**
 =================================
 
-Coming soon!
+Complete building load calculations using the THRUX Mechanical engine. 
 
 .. toctree::
     :maxdepth: 2
 
-    buildingmechanicalmodel/index-building_mechanical_model
+    buildingmechanicalmodel/elements/index-element
+    buildingmechanicalmodel/floorplans/index-mech_floor_plans
+    buildingmechanicalmodel/schedules/index-mech_schedules
+    buildingmechanicalmodel/loadoutputs/index-mech_load_outputs
 
 **Building the Plumbing and Fire Protection Model**
 ====================================================
