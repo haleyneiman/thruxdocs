@@ -2,4 +2,4 @@
 Defining the Basis of Design
 ############################
 
-These are mechanical floor plans.
+Define BOD templates for architectural elements in the model. 
