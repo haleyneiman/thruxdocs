@@ -325,7 +325,7 @@ The right-side toolbar of THRUX is generally where the explorers or utility tool
 
 THRUX models are stored in the cloud and are periodically backed up. You can revert a model to a previous point in time via the Open Project window. Select your project and use the Restore command on the model you wish to roll back.
 
-.. figure:: recoveryoptions/images/restore-2.PNG
+.. figure:: recoveryoptions/images/restore-3.PNG
     :align: center
     :alt: restore
 
