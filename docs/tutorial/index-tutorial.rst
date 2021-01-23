@@ -58,7 +58,7 @@ Distances between Equipment are determined by the orthogonal route of their resp
 
 It is often necessary to route conduits through a Riser.
 
-Click :ref:`here <Architectural-Workspaces>` for more information on the Architectural Model.
+Click :ref:`here <Define_Architecture>` for more information on the Architectural Model.
 
 Creating Columns and Floors
 ---------------------------

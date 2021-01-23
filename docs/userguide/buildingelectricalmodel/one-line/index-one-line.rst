@@ -301,7 +301,7 @@ The distance between two pieces of Equipment are determined by their Room locati
 
     Using Property Tags to assign a Room
 
-Assign a Room by clicking in the text box.  If no Rooms are available, create them using the :ref:`Architectural Workspaces <Architectural-Workspaces>`.
+Assign a Room by clicking in the text box.  If no Rooms are available, create them using the :ref:`Architectural Workspaces <Define_Architecture>`.
 
 .. figure:: images/one-line-assigning-room-2.PNG
     :align: center

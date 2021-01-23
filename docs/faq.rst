@@ -153,7 +153,7 @@ I'm working in the Floor Plans.  How do I create my columns and floors?
 
 Use the Setup Wizard to create the XComp and YComp (column) components and Floors.  Use the Grid Editor to modify the columns or manually modify these components in the :ref:`Arch. Elements <Arch.-Elements>` Workspace.
 
-See :ref:`Floor Plans <Floor-Plans-Overview>` or :ref:`Arch. Elements <Arch.-Elements>` for more information.
+See :ref:`Floor Plans <Floor-Plans>` or :ref:`Arch. Elements <Arch.-Elements>` for more information.
 
 It is also possible to import this information from an architectural Revit model.
 
