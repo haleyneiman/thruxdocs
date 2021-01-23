@@ -7,6 +7,7 @@ Once the application is open, sign in with your account.
 
 .. figure:: images/SignIn.PNG
     :align: center
+    :alt: sign in 
     
     Sign In at the Top Right
 
@@ -23,6 +24,7 @@ The left-side toolbar is the Workspace Toolbar.  The purple shading indicates an
 
 .. figure:: images/workspace-toolbar-1.PNG
     :align: center
+    :alt: toolbar
 
     Workspace Toolbar
 
@@ -32,11 +34,13 @@ These windows can be docked by clicking Dock in the top right of the undocked wi
 
 .. figure:: images/workspace-toolbar-dock.PNG
     :align: center
+    :alt: toolbar
 
     Docked One-Line separate from the main application
 
 .. figure:: images/workspace_docking.PNG
     :align: center
+    :alt: dock
 
     Docking Workspaces allows Workspaces to be viewed on multiple monitors
 
@@ -48,6 +52,7 @@ Explorers and other Utility tools can be found on the :ref:`Explorer Toolbar <Ex
 
 .. figure:: images/explorer-toolbar-1.PNG
     :align: center
+    :alt: explorer
 
     Using the :ref:`Properties Explorer <Properties-Explorer>` and :ref:`Flag Tracker <Flag-Tracker>` while working in the :ref:`One-Line <One-Line>` Workspace
 
@@ -65,6 +70,7 @@ Options will be displayed where something is found.
  
 .. figure:: images/navigation_bar-1.PNG
     :align: center
+    :alt: nav bar
 
     Navigation Bar
 
@@ -72,6 +78,7 @@ Selection will navigate you to the location within the application.
 
 .. figure:: images/navigation_bar-2.PNG
     :align: center
+    :alt: nav bar
 
     Navigating to the Schedule for MDB-1
 
@@ -90,6 +97,7 @@ Click the Home button, and then the Add (+) button to create a new Project.
 
 .. figure:: projectsettings/images/new_project-1.PNG
     :align: center
+    :alt: new project
 
     The Home Screen is a Project portal that provides quick access to recent Projects
 
@@ -101,6 +109,7 @@ Existing projects or recently opened projects are shown below the Open Project s
 
 .. figure:: projectsettings/images/open_project-1.PNG
     :align: center
+    :alt: open project
 
     Check the recently opened lists to pick up where you left off
 
@@ -114,6 +123,7 @@ Project Settings are a set of customizable parameters on which to base the desig
 
 .. figure:: projectsettings/images/project_settings-1.PNG
     :align: center
+    :alt: settings
 
     Project Settings are accessible by clicking on File, and then Settings
 
@@ -135,6 +145,7 @@ To help guide the design process, refer to the Roadmap.  Clicking on each node w
 
 .. figure:: images/Roadmap.PNG
     :align: center
+    :alt: roadmap
 
     Roadmap
 
@@ -147,7 +158,7 @@ To help guide the design process, refer to the Roadmap.  Clicking on each node w
 Overview
 ###################
 
-The goal of the Architectural Workspaces, :ref:`Floor Plans <Floor-Plans>` and :ref:`Arch. Elements <Arch.-Elements>`, is to provide a way for you to quickly mass the load of a building.  These locations aid with point-to-point calculations such as voltage drop.
+The goal of the Architectural Workspaces, :ref:`Floor Plans <Floor-Plans>` and :ref:`Elements <Arch.-Elements>`, is to provide a way for you to quickly mass the load of a building.  These locations aid with point-to-point calculations such as voltage drop.
 
 However, these Workspaces are completely optional.  For a smaller project, you may not find it necessary to set up these Workspaces and instead, find it faster to manually input feeder lengths in the :ref:`One-Line <One-Line>`.  
 
@@ -172,6 +183,7 @@ The vertical distance between Rooms is the difference between their respective e
 
 .. figure:: images/equipment_distances-1.PNG
     :align: center
+    :alt: equip distance
 
     Route between Rooms on the same Floor, and vertical distance between stacked Rooms
 
@@ -179,6 +191,7 @@ It is often necessary to offset through a Riser.  The total distance or :ref:`Ne
 
 .. figure:: images/equipment_distances-2.PNG
     :align: center
+    :alt: equip distance
 
     Routing from Room A, through Riser A, and terminating at Room B
 
@@ -209,6 +222,7 @@ Creation of these architectural entities allow for the THRUX engine to fully uti
 
 .. figure:: images/loading_system-1.PNG
     :align: center
+    :alt: loading system
 
     Creating Architectural Packages to model loads
 
@@ -216,6 +230,7 @@ Modeling residential loads relies on creating entities that are based off of the
 
 .. figure:: images/loading_system-2.PNG
     :align: center
+    :alt: loading system
 
     Creating Architectural Packages to model residential loads
 
@@ -314,12 +329,15 @@ Studies
 **Building the Mechanical Model**
 =================================
 
-Coming soon!
+Complete building load calculations using the THRUX Mechanical engine. 
 
 .. toctree::
     :maxdepth: 2
 
-    buildingmechanicalmodel/index-building_mechanical_model
+    buildingmechanicalmodel/elements/index-element
+    buildingmechanicalmodel/floorplans/index-mech_floor_plans
+    buildingmechanicalmodel/schedules/index-mech_schedules
+    buildingmechanicalmodel/loadoutputs/index-mech_load_outputs
 
 **Building the Plumbing and Fire Protection Model**
 ====================================================
@@ -358,6 +376,7 @@ The :ref:`Issuance Log <Issuance-Log>` allows you to create Branches, while the 
 
 .. figure:: projectmanagement/images/project_management-1.PNG
     :align: center
+    :alt: project management
 
     Project Management tools - Issuance Log, Change Tracking
 
@@ -377,6 +396,7 @@ The right-side toolbar of THRUX is generally where the explorers or utility tool
 
 .. figure:: explorersandutilitytools/images/explorersandutilitytools-1.PNG
     :align: center
+    :alt: explorers 
 
     Explorer Toolbar
 
@@ -398,6 +418,7 @@ THRUX models are stored in the cloud and are periodically backed up. You can rev
 
 .. figure:: recoveryoptions/images/restore-2.PNG
     :align: center
+    :alt: restore
 
 .. _Release-Data:
 
@@ -410,16 +431,19 @@ Refer to the Version Number in the bottom right of the :ref:`Status Bar <Status-
 
 .. figure:: automaticupdates/images/version.PNG
     :align: center
+    :alt: updates
 
 To see an outline of updates between each Version, click on the information icon located in the top-right of the top menu bar. 
 
 .. figure:: automaticupdates/images/release_data-1.PNG
     :align: center
+    :alt: release data
 
 Use the arrows to navigate between each Version.
 
 .. figure:: automaticupdates/images/release_data-2.PNG
     :align: center
+    :alt: release data
 
 .. _Revit-Interoperability:
 
@@ -432,6 +456,7 @@ In addition, a THRUX model can be exported to Revit.  You can then fine-tune Equ
 
 .. figure:: definingarchitecturalelements/images/revit-interop-1.PNG
     :align: center
+    :alt: revit interop
 
 .. _AutoCAD-Interoperability:
 
@@ -442,10 +467,12 @@ In addition, a THRUX model can be exported to Revit.  You can then fine-tune Equ
 
 .. figure:: buildingelectricalmodel/schedules/images/schedules-exporting-1.PNG
     :align: center
+    :alt: schedules
 
     Exporting Schedules to AutoCAD
 
 .. figure:: buildingelectricalmodel/schedules/images/schedules-exporting-2.PNG
     :align: center
+    :alt: cad
 
     Exporting Schedules to AutoCAD
