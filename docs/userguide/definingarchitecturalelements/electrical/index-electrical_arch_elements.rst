@@ -1,4 +1,5 @@
 .. _Electrical_Elements:
+:orphan:
 
 ##############################
 Electrical Specific Components

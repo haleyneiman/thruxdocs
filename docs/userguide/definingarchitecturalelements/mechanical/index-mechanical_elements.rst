@@ -1,4 +1,5 @@
 .. _Mechanical_Elements:
+:orphan:
 
 ###################
 Mechanical Elements
