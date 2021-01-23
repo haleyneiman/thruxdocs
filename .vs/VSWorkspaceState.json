@@ -2,8 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\userguide"
+    "\\docs\\definitions",
+    "\\docs\\images",
+    "\\docs\\introduction",
+    "\\docs\\productoverview",
+    "\\docs\\tutorial",
+    "\\docs\\userguide",
+    "\\docs\\userguide\\projectmanagement",
+    "\\docs\\userguide\\projectmanagement\\images",
+    "\\docs\\_static"
   ],
-  "SelectedNode": "\\docs\\userguide\\buildingmechanicalmodel",
+  "SelectedNode": "\\docs\\Makefile",
   "PreviewInSolutionExplorer": false
 }

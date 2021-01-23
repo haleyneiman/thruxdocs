@@ -394,12 +394,7 @@ The right-side toolbar of THRUX is generally where the explorers or utility tool
 **Recovery Options**
 ====================
 
-THRUX models are stored in the cloud and are periodically backed up.  If THRUX crashes, reopen THRUX.  A recovery window will prompt to restore to the latest restore point, or an earlier restore point.  
-
-.. figure:: recoveryoptions/images/restore-1.PNG
-    :align: center
-
-Another option is to restore a model to a restore point via the Open Project window.  Use the Restore button (restore icon) and then choose a restore point.
+THRUX models are stored in the cloud and are periodically backed up. You can revert a model to a previous point in time via the Open Project window. Select your project and use the Restore command on the model you wish to roll back.
 
 .. figure:: recoveryoptions/images/restore-2.PNG
     :align: center
