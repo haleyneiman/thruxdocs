@@ -43,7 +43,7 @@ For example, a group of Floors could each have their Space Type designated as Of
 
 Select a group of Floors or Rooms.  Then, in the orange text box, enter a name for the Package and then click the (+) button.  This is packaging a group of Floors as a load.
 
-.. figure:: /thruxdocs/docs/userguide/definingarchitecturalelements/electrical/images/Architectural_Package-1.PNG
+.. figure:: images/Architectural_Package-1.PNG
     :align: center
     :alt: Architectural_Package
 
@@ -51,7 +51,7 @@ Select a group of Floors or Rooms.  Then, in the orange text box, enter a name f
 
 To view the Package, click the Architectural Package tab.  These loads can be attached to any distribution Equipment in the network.
 
-.. figure:: thruxdocs/docs/userguide/definingarchitecturalelements/electrical/images/Architectural_Package-2.PNG
+.. figure:: images/Architectural_Package-2.PNG
     :align: center
     :alt: package
 
