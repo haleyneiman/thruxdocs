@@ -2,16 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\definitions",
-    "\\docs\\images",
-    "\\docs\\introduction",
-    "\\docs\\productoverview",
     "\\docs\\tutorial",
     "\\docs\\userguide",
     "\\docs\\userguide\\projectmanagement",
     "\\docs\\userguide\\projectmanagement\\images",
+    "\\docs\\userguide\\projectmanagement\\issuancelog",
+    "\\docs\\userguide\\recoveryoptions",
+    "\\docs\\userguide\\recoveryoptions\\images",
     "\\docs\\_static"
   ],
-  "SelectedNode": "\\docs\\Makefile",
+  "SelectedNode": "\\docs\\conf.py",
   "PreviewInSolutionExplorer": false
 }
