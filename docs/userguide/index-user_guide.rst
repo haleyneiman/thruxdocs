@@ -228,9 +228,9 @@ Flag Tracker
 
     buildingelectricalmodel/flagtracker/index-flag_tracker
 
-####################
+########
 Studies
-####################
+########
 
 .. toctree::
     :maxdepth: 2
