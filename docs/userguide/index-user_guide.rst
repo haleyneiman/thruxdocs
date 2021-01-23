@@ -245,7 +245,7 @@ Complete building load calculations using the THRUX Mechanical engine.
 .. toctree::
     :maxdepth: 2
 
-    buildingmechanicalmodel/elements/index-element
+    definingarchitecturalelements/mechanical/index-mechanical_elements
     buildingmechanicalmodel/floorplans/index-mech_floor_plans
     buildingmechanicalmodel/schedules/index-mech_schedules
     buildingmechanicalmodel/loadoutputs/index-mech_load_outputs

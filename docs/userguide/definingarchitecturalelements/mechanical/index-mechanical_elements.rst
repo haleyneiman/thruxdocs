@@ -1,5 +1,4 @@
 :orphan:
-:title: Mechanical Elements  
 
 .. _Mechanical_Elements:
 
@@ -68,9 +67,12 @@ Spaces are rooms, defined and created visually in the floor plans (or imported f
     :header-rows: 1
 
 
-
 Zones
 -----
 
+Zones are collections of spaces that thermally controlled together. Zones are created visually in the floor plans. Here you can view the spaces associated with a zone and the resultant load. 
+
 Mechanical Equipment
 --------------------
+
+Load carrying equipment in the model. 
