@@ -1,9 +1,12 @@
-.. _Mechanical_Elements:
 :orphan:
+:title: Mechanical Elements  
 
-###################
-Mechanical Elements
-###################
+.. _Mechanical_Elements:
+
+
+############################
+Mechanical Specific Elements
+############################
 
 Space Types
 -----------
@@ -17,9 +20,9 @@ Mechanical Space Types are templates for the spaces or rooms in the model. Space
     Mechanical Space Types
 
 .. csv-table:: Space Type Properties
-   :file: images/SpaceTypeProperties.csv
-   :widths: 30, 70
-   :header-rows: 1
+    :file: images/SpaceTypeProperties.csv
+    :widths: 30, 70
+    :header-rows: 1
 
 
 Wall Types
