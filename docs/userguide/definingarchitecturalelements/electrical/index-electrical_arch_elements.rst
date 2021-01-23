@@ -45,7 +45,6 @@ Select a group of Floors or Rooms.  Then, in the orange text box, enter a name f
 
 .. figure:: images/Architectural_Package-1.PNG
     :align: center
-    :alt: Architectural_Package
 
     Creating an Architectural Package for a group of Floors
 
@@ -53,7 +52,6 @@ To view the Package, click the Architectural Package tab.  These loads can be at
 
 .. figure:: images/Architectural_Package-2.PNG
     :align: center
-    :alt: package
 
     Viewing the Load of Architectural Packages
 
