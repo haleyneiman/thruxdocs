@@ -1,0 +1,9 @@
+﻿Property,Definition
+Floor,Floor location of the space in the model. 
+Area,Defined by the 2D layout of the space defined in the floor plans. This value can be overriden. 
+Space Type,"The Space Type template applied to a particular space. This defines the temperature setpoints, load densities, outdoor air and occupancy rates. "
+Ceiling Height,"Used to calculate space volume for an ACH rate calculations. This is a required property when ACH rates are applies, but can be left blank otherwise. "
+Roof Exists,Indicates whether the space contains a roof with applied load (exposed roof of roof below a space conditioned differently from this one). 
+# of Occupants,Number of people assumed to be in the space for load calculations. 
+Floor Slab Exists,"Indicates whether the space contains a floor slab with an applied load (exposed floor slab, slab on grade, or slab above a space conditioned differently from this one). "
+Walls,"Indicates any walls applying load to this space. Readonly, walls are indicated as load carrying in the floor plans. "

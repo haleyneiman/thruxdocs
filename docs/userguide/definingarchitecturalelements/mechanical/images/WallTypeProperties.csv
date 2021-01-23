@@ -1,0 +1,6 @@
+﻿Property,Definition
+U Value,Standard measure of conduction through a material. This value applies to the opaque section of the wall. 
+K Value,Color correction factor for surfaces. From ASHRAE CLTD - 1.0 if dark colored or light in an industrial area. 0.83 if permanently medium colored. 0.65 if permanently light colored. 
+Infiltration Rate,Rate that outdoor air enters the space through leaky façade elements. Measured in CFM / SF of façade length. 
+Percent Glass,Used to calculate glass area. Percent of façade taken up by glazing. 
+Window Type,The glazing construction type associated with a given wall type. 

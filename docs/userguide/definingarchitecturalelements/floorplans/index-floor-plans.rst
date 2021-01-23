@@ -1,21 +1,8 @@
 .. _Floor-Plans:
 
-Additional Commands
--------------------
-
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Command**                 | **Description**                                                                                                                                                                     |
-+=============================+=====================================================================================================================================================================================+
-| Select All                  | Use CTRL+A to select all entities.                                                                                                                                                  |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Cut/Copy                    | Use CTRL+C to copy and CTRL+C to cut.                                                                                                                                               |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Paste                       | Use CTRL+V to paste.                                                                                                                                                                |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Find                        | Use CTRL+F to search.                                                                                                                                                               |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Zoom Extents                | Double-click the mouse wheel to zoom and pan to the extents of the window content.                                                                                                  |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+####################
+Floor Plan Workspace
+####################
 
 Setup Wizard
 ------------
@@ -155,3 +142,65 @@ Hover over a Room and click the Move/Add icon.
     :align: center
 
     Highlighted regions are areas where an Equipment can be placed
+
+
+Distance Measurements
+---------------------
+
+.. _Calculated-Length:
+
+^^^^^^^^^^^^^^^^^^^^^^^^
+Calculated Length
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Distances between Equipment are determined by their respective Room locations.  Calc. Length (Calculated) represents the distance between two Rooms via an orthogonal route.
+
+The vertical distance between Rooms is the difference between their respective elevations.
+
+.. figure:: images/equipment_distances-1.PNG
+    :align: center
+    :alt: equip distance
+
+    Route between Rooms on the same Floor, and vertical distance between stacked Rooms
+
+It is often necessary to offset through a Riser.  The total distance or :ref:`Net Length <Net-Length>` is determined by the centerpoints of the respective entities.
+
+.. figure:: images/equipment_distances-2.PNG
+    :align: center
+    :alt: equip distance
+
+    Routing from Room A, through Riser A, and terminating at Room B
+
+.. _Manual-Added-Length:
+
+^^^^^^^^^^^^^^^^^^^^^^^^
+Manual Added Length
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Manual Added Length is an additional factor which is added to a circuit's :ref:`Calc. Length <Calculated-Length>` property and is a customizable default setting.  See :ref:`here <Default-Model-Parameters>` for more information.
+
+.. _Net-Length:
+
+^^^^^^^^^^^^^^^^^^^^^^^^
+Net Length
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Net Length is composed of the :ref:`Calc. Length <Calculated-Length>` and the :ref:`Manual Added Length <Manual-Added-Length>`.
+
+Useful Commands
+---------------
+
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Command**                 | **Description**                                                                                                                                                                     |
++=============================+=====================================================================================================================================================================================+
+| Select All                  | Use CTRL+A to select all entities.                                                                                                                                                  |
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Cut/Copy                    | Use CTRL+C to copy and CTRL+C to cut.                                                                                                                                               |
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Paste                       | Use CTRL+V to paste.                                                                                                                                                                |
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Find                        | Use CTRL+F to search.                                                                                                                                                               |
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Zoom Extents                | Double-click the mouse wheel to zoom and pan to the extents of the window content.                                                                                                  |
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+

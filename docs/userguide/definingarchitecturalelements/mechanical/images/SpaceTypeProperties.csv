@@ -1,0 +1,16 @@
+﻿Property,Definition
+Design Heating Setpoint,Space temperature setpoint when in heating mode.
+Design Cooling Setpoint,Space temperature setpoint when in cooling mode.
+Design Cooling % RH,Space setpoint or upper limit for relative humidity when in cooling mode.                               
+Lighting Density,Lighting load carried / SF
+Equipment Density,Equipment load carried / SF
+ACH,Required air change rate for the space. Used to calculate required cooling/heating flowrates. Note - not outdoor air specific.
+Ventilation Rate Type,"Method for calculating required outdoor air flowrate to space. Options: Code Minimum, Percent Above Code Min, CFM Per Person, ACH Rate"
+Ventilation Rate Override,Applies to the selected Ventilation Rate Type. For Percent Above Code Min: Enter % extra outdoor air above code min. For ACH Rate: Enter required ACH Rate. No entry required for the other calculation types. 
+Code Occupancy Classification,"Mechanical code occupancy type, defines the CFM Per Person and CFM / SF values used to calculate the code minimum ventilation rate. "
+CFM Per Person,Pulled from mechanical code per the selected Code Occupancy Classification. Can be overriden. 
+CFM Per SF,Pulled from mechanical code per the selected Code Occupancy Classification. Can be overriden. 
+Occupant Density,Used to calculate number of occupants in each space. 
+Degree of Activity,ASHRAE defined amount of activity in the space. Used to define the sensible and latent BTUH gains per occupant. 
+Sensible Heat Gain / Person,Pulled from ASHRAE per selected Degree of Activity. Can be overriden. 
+Latent Heat Gain / Person,Pulled from ASHRAE per selected Degree of Activity. Can be overriden. 

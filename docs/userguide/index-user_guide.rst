@@ -149,116 +149,25 @@ To help guide the design process, refer to the Roadmap.  Clicking on each node w
 
     Roadmap
 
-.. _Architectural-Workspaces:
+**Define Architecture**
+=======================
 
-**Defining Architectural Elements**
-===================================
+The goal of the Architectural Workspaces, :ref:`Floor Plans <Floor-Plans>` and :ref:`Elements <Arch.-Elements>`, is to provide to visualize building geometry and complete load massing.
 
-###################
-Overview
-###################
+For electrical projects, you may not find it necessary to set up these Workspaces and instead, find it faster to manually input feeder lengths in the :ref:`One-Line <One-Line>`.  
 
-The goal of the Architectural Workspaces, :ref:`Floor Plans <Floor-Plans>` and :ref:`Elements <Arch.-Elements>`, is to provide a way for you to quickly mass the load of a building.  These locations aid with point-to-point calculations such as voltage drop.
+Architectural contraints can be :ref:`imported <Revit-Interoperability>` from an Architectural Revit model or created manually. 
 
-However, these Workspaces are completely optional.  For a smaller project, you may not find it necessary to set up these Workspaces and instead, find it faster to manually input feeder lengths in the :ref:`One-Line <One-Line>`.  
+The :ref:`Elements <Arch.-Elements>` Workspace allows you to modify the architectural elements of the model, like floors or rooms/spaces. 
 
-This information can be :ref:`imported <Revit-Interoperability>` from an Architectural Revit model.
-
-The :ref:`Arch. Elements <Arch.-Elements>` Workspace allows you to modify the architectural elements of the model.  Here, it is possible to modify other characteristics of a Floor.  For example, when massing the load of a building, you may want to assign a load requirement or load density to each Floor.  This load is based off of the Floor's Space Type.
-
-These elements can be created in the :ref:`Floor Plans <Floor-Plans>` Workspace, or the :ref:`Architectural Elements <Arch.-Elements>` Workspace.
-
-Equipment Distances
--------------------
-
-.. _Calculated-Length:
-
-^^^^^^^^^^^^^^^^^^^^^^^^
-Calculated Length
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Distances between Equipment are determined by their respective Room locations.  Calc. Length (Calculated) represents the distance between two Rooms via an orthogonal route.
-
-The vertical distance between Rooms is the difference between their respective elevations.
-
-.. figure:: images/equipment_distances-1.PNG
-    :align: center
-    :alt: equip distance
-
-    Route between Rooms on the same Floor, and vertical distance between stacked Rooms
-
-It is often necessary to offset through a Riser.  The total distance or :ref:`Net Length <Net-Length>` is determined by the centerpoints of the respective entities.
-
-.. figure:: images/equipment_distances-2.PNG
-    :align: center
-    :alt: equip distance
-
-    Routing from Room A, through Riser A, and terminating at Room B
-
-.. _Manual-Added-Length:
-
-^^^^^^^^^^^^^^^^^^^^^^^^
-Manual Added Length
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Manual Added Length is an additional factor which is added to a circuit's :ref:`Calc. Length <Calculated-Length>` property and is a customizable default setting.  See :ref:`here <Default-Model-Parameters>` for more information.
-
-.. _Net-Length:
-
-^^^^^^^^^^^^^^^^^^^^^^^^
-Net Length
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-The Net Length is composed of the :ref:`Calc. Length <Calculated-Length>` and the :ref:`Manual Added Length <Manual-Added-Length>`.
-
-Loading System
--------------------
-
-The Architectural Elements are the unifying components which Engineers base their design.  However, various engineering disciplines refine and base their calculations off of different elements.
-
-You have the ability to abstract the architectural elements of a model to create Load Packages.  Ideally these entities would be abstracted away from a Revit model.  However, during the early stages of development, a Revit model may not exist.
-
-Creation of these architectural entities allow for the THRUX engine to fully utilize its Loading System which applies loading factors dictated by the designer and the Project's applicable safety codes and standards.
-
-.. figure:: images/loading_system-1.PNG
-    :align: center
-    :alt: loading system
-
-    Creating Architectural Packages to model loads
-
-Modeling residential loads relies on creating entities that are based off of the NEC.
-
-.. figure:: images/loading_system-2.PNG
-    :align: center
-    :alt: loading system
-
-    Creating Architectural Packages to model residential loads
-
-Groups of architectural entities can be created within THRUX, or imported from a Revit model.  Ultimately, Architectural Packages are loads that can be attached to Equipment.
-
-.. _Floor-Plans-Overview:
-
-############
-Floor Plans
-############
-
-The :doc:`Floor Plans <definingarchitecturalelements/floorplans/index-floor-plans>` Workspace is a 2-D representation of the Project and is used to model locations of Equipment.  
+These elements can be created in the :ref:`Floor Plans <Floor-Plans>` Workspace, or the :ref:`Elements <Arch.-Elements>` Workspace.
 
 .. toctree::
-    :maxdepth: 3
-
-    definingarchitecturalelements/floorplans/index-floor-plans
-
-#######################
-Architectural Elements
-#######################
-
-:doc:`Arch. Elements <definingarchitecturalelements/archelements/index-arch-elements>` are a tabular representation of the Architectural entities of the model.  
-
-.. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     definingarchitecturalelements/archelements/index-arch-elements
+    definingarchitecturalelements/floorplans/index-floor-plans
+
 
 .. _Electrical-Workspaces:
 

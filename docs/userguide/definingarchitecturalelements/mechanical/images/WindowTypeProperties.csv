@@ -1,0 +1,3 @@
+﻿Property,Definition
+U Value,Standard measure of conduction through a material. This value applies to the glazing portion of the wall only. 
+Shading Coefficient,Shading effect of the glass. A value between 0 and 1. Not to be confused with the solar heat gain coefficient which is equivalent to the shading coefficient x 0.87. 

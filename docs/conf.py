@@ -21,8 +21,8 @@ sys.path.append('docs')
 # -- Project information -----------------------------------------------------
 
 project = 'THRUX'
-copyright = '2019, KT'
-author = 'KT'
+copyright = '2019, THRUX'
+author = 'THRUX'
 
 # The short X.Y version
 version = '98'
