@@ -365,7 +365,7 @@ The Architectural information which comprise the Architectural Workspaces, :ref:
 
 In addition, a THRUX model can be exported to Revit.  You can then fine-tune Equipment locations using Revit, and verify the integrity of the design using THRUX.
 
-.. figure:: definingarchitecturalelements/images/revit-interop-1.PNG
+.. figure:: images/revit-interop-1.PNG
     :align: center
     :alt: revit interop
 
