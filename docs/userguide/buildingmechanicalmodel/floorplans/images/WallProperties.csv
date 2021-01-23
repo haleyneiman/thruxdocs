@@ -1,0 +1,8 @@
+﻿Property,Definition
+Wall Type,Wall Type template assigned to the selected wall. Wall Type templates define wall construction characteristics. 
+Length,Wall length. Can be manually overriden. 
+Direction,Wall orientation in degrees from North. Can be overriden. 
+Floor,Floor of the building the associated space is located. 
+Floor Height,The floor to floor height between the slabs. 
+Wall Placement,"Exterior or Interior. Note, interior walls should only be indicated for walls that separate interior spaces of differing setpoints. "
+Adjacent Space,"If interior, the space on the other side of the wall. "
