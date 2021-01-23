@@ -15,6 +15,9 @@ Double click a space, and the :ref:`Properties Explorer <Properties-Explorer>` w
     :align: center
     :alt: quick tag
 
+Indicate Exterior Walls
+-----------------------
 
+While THRUX understands the length, height and direction of every wall in the model, defining a wall as exterior vs. interior us left up to the user. 
 
 
