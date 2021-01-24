@@ -22,7 +22,7 @@ Wall Edit Mode
 
 While THRUX understands the length, height and direction of every wall in the model, defining a wall as exterior vs. interior us left up to the user. Toggle on "Wall Edit Mode" at the top of workspace to edit the walls of the building.
 
-.. image:: .../images/WallEditModeScreenshot.PNG
+.. image:: images/WallEditModeScreenshot.PNG
     :align: center
     :alt: Wall Edit Mode
 
@@ -40,7 +40,7 @@ Global Building Rotation
 
 Modify the global building rotation field to align the THRUX grid with the actual building orientation. Building rotation is measured in degrees from North. 
 
-.. image:: .../images/BuildingRotation.PNG
+.. image:: images/BuildingRotation.PNG
     :align: center
     :alt: Global Building rotation
 
