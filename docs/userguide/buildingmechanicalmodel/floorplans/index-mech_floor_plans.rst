@@ -22,11 +22,8 @@ Wall Edit Mode
 
 While THRUX understands the length, height and direction of every wall in the model, defining a wall as exterior vs. interior us left up to the user. Toggle on "Wall Edit Mode" at the top of workspace to edit the walls of the building.
 
-.. figure:: images/WallEditMode.PNG
-    :align:center
-    :alt: wall edit mode
-
-    Edit wall geometry, construction templates and placement
+.. image:: images/WallEditModeScreenshot.JPG
+    :align: center
 
 With Wall Edit Mode enabled, the edges of each space become selectable. To batch select, draw a selection region enclosing one or more of the highlighted edges. Dragging to the left selects every edge touched. Dragging to the right selects only the edges fully enclosed by the region. By default, selected egdes are indicated as exterior and therefore contribute to the load of the space. 
 
