@@ -22,8 +22,9 @@ Wall Edit Mode
 
 While THRUX understands the length, height and direction of every wall in the model, defining a wall as exterior vs. interior us left up to the user. Toggle on "Wall Edit Mode" at the top of workspace to edit the walls of the building.
 
-.. image:: images/WallEditModeScreenshot.JPG
+.. image:: images/WallEditModeScreenshot.PNG
     :align: center
+    :alt: Wall Edit Mode
 
 With Wall Edit Mode enabled, the edges of each space become selectable. To batch select, draw a selection region enclosing one or more of the highlighted edges. Dragging to the left selects every edge touched. Dragging to the right selects only the edges fully enclosed by the region. By default, selected egdes are indicated as exterior and therefore contribute to the load of the space. 
 
@@ -33,6 +34,18 @@ Exterior walls are indicated visually in the plans with highlighted teal. Interi
     :file: images/WallProperties.csv
     :widths: 30, 70
     :header-rows: 1
+
+Global Building Rotation
+------------------------
+
+Modify the global building rotation field to align the THRUX grid with the actual building orientation. Building rotation is measured in degrees from North. 
+
+.. image:: images/BuildingRotation.PNG
+    :align: center
+    :alt: Global Building rotation
+
+
+
 
 
 
