@@ -7,7 +7,7 @@ Review Load Calc Results
 Review the results of calculations in the Load Output workspace. 
 
 
-.. figure:: images/loadOutput.jpg
+.. figure:: images/loadOutput.JPG
     :align: center
     :alt: Load Output
 

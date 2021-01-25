@@ -53,7 +53,7 @@ Toggle on Zone Edit Mode at the top of the workspace to create, modify and delet
 
 Draw a selection box around multiple spaces to group them together into a zone. Once the zone is created, it can modified and reshaped to encompass other spaces. A zone considers any space fully enclosed by it's boundary to be included in the zone. Moving or reshaping the region will cause any spaces included to highlight.  
 
-.. figure:: images/ZoneEditMode.jpg
+.. figure:: images/ZoneEditMode.JPG
     :align: center
     :alt: Create/Modify/Delete zones
 
