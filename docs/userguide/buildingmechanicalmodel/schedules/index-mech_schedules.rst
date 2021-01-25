@@ -4,4 +4,4 @@
 Building Mechanical Equipment
 #############################
 
-Building mechanical equipment in the schedules. 
+More info coming soon!

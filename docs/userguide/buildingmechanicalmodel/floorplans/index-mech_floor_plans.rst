@@ -6,6 +6,8 @@ Working in the Floor Plans
 
 The mechanical floor plans provide a visual interface for load calculations. Here, the basis of design templates created in the :ref:`Elements Workspace <Mechanical_Elements>` can be associated with the spaces, walls, windows, and roofs in the building.
 
+Follow these :ref:`steps <Floor-Plans>` to import an architectural REVIT model or build a lightweight floor plan in THRUX. 
+
 Assigning Space Types to Spaces
 -------------------------------
 
@@ -20,7 +22,7 @@ Double click a space, and the :ref:`Properties Explorer <Properties-Explorer>` w
 Wall Edit Mode
 --------------
 
-While THRUX understands the length, height and direction of every wall in the model, defining a wall as exterior vs. interior us left up to the user. Toggle on "Wall Edit Mode" at the top of workspace to edit the walls of the building.
+While THRUX understands the length, height and direction of every wall in the model, defining a wall as exterior vs. interior is left up to the user. Toggle on "Wall Edit Mode" at the top of workspace to edit the walls of the building.
 
 .. image:: images/WallEditModeScreenshot.png
     :align: center
@@ -43,6 +45,22 @@ Modify the global building rotation field to align the THRUX grid with the actua
 .. image:: images/BuildingRotation.png
     :align: center
     :alt: Global Building rotation
+
+Zone Edit Mode
+--------------
+
+Toggle on Zone Edit Mode at the top of the workspace to create, modify and delete thermal zones.
+
+Draw a selection box around multiple spaces to group them together into a zone. Once the zone is created, it can modified and reshaped to encompass other spaces. A zone considers any space fully enclosed by it's boundary to be included in the zone. Moving or reshaping the region will cause any spaces included to highlight.  
+
+.. figure:: images/ZoneEditMode.jpg
+    :align: center
+    :alt: Create/Modify/Delete zones
+
+    Create/Modify/Delete zones
+
+
+
 
 
 
