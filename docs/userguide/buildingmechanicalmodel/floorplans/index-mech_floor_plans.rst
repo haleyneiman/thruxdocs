@@ -64,8 +64,8 @@ Floor Slabs and Roofs
 
 By default, the floor and roof of a space is assumed to be adjacent to another conditioned space. To indicate that a floor or roof should apply a load to it's respective space, toggle on the "Contains Floor Slab" or "Contains Roof" toggles in the Space properties browser. 
 
-.. figure:: images/FloorSlab.jpg
-    :align:center
+.. figure:: images/FloorSlab.JPG
+    :align: center
     :alt: Floor Slab/Roof Toggles
 
 Once toggled on, a new set of properties will appear, applying to the floor slab or roof. 

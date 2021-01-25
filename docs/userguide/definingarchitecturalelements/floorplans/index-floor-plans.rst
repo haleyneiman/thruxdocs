@@ -8,6 +8,7 @@ The floor plans provide a 2-dimensional window into the geometric constraints of
 
 The best application of the floor plans is always to import an architectural REVIT model and view it read-only, but follow the steps below to model the geometry manually if a model doesn't exist. 
 
+
 Setup Wizard
 ------------
 

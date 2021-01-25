@@ -26,7 +26,7 @@ Each component type can be toggled on/off in the System's Browser by using the t
     :align: center
     :alt: System's Browser Toggles
 
-Select a component to view the associated load. 
+Select a component to view the associated load visualized in a pie chart. 
 
 
 
