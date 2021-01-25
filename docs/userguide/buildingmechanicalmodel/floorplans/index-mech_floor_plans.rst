@@ -59,6 +59,27 @@ Draw a selection box around multiple spaces to group them together into a zone. 
 
     Create/Modify/Delete zones
 
+Floor Slabs and Roofs
+---------------------
+
+By default, the floor and roof of a space is assumed to be adjacent to another conditioned space. To indicate that a floor or roof should apply a load to it's respective space, toggle on the "Contains Floor Slab" or "Contains Roof" toggles in the Space properties browser. 
+
+.. figure:: images/FloorSlab.JPG
+    :align:center
+    :alt: Floor Slab/Roof Toggles
+
+Once toggled on, a new set of properties will appear, applying to the floor slab or roof. 
+
+.. csv-table:: Floor Slab Properties
+    :file: images/FloorSlabProperties.csv
+    :widths: 30,70
+    :header-rows: 1
+
+.. csv-table:: Roof Properties
+    :file: images/RoofProperties.csv
+    :widths: 30,70
+    :header-rows: 1
+
 
 
 

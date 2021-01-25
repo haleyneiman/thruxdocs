@@ -1,0 +1,7 @@
+﻿Property,Definition
+Area,Area of slab. By default is set equivalent to the space area. 
+U Value ,Standard measure of conduction through a material. 
+Slab Location,"Exposed, On Grade, or Above Space. Below Space indicates that a space exists below but is conditioned differently from the space in question. "
+Adjacent Space,"If Above Space is selected as a slab location, this is required to be set = the space below the space in question. "
+Perimeter,"If On Grade is selected, this is used to calculate heat loss/gain through the slab. By default set equivalent to full perimeter of the space. "
+Perimeter Heat Loss Coefficient,"If On Grade is selected, this is used to calculate heat loss/gain through the slab. BTUH / Linear foot of exposed edge. "

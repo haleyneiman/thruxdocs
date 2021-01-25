@@ -1,0 +1,6 @@
+﻿Property,Definition
+Area,Area of roof. By default is set equivalent to the space area. 
+Roof Type,Roof Type template applied to roof. 
+Floor,Floor of the building this roof is located on. 
+Roof Location,Exposed or Below Space. Below space indicates that a space exists above that is conditioned differently from the space in question. 
+Adjacent Space,"If Below Space is selected, this is required to be set as the space above the space in question. "
