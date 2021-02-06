@@ -6,7 +6,7 @@ Floor Plan Workspace
 
 The floor plans provide a 2-dimensional window into the geometric constraints of the building. Use the floor plans to modify or create architectural constraints when necessary. 
 
-The best application of the floor plans is always to import an architectural REVIT model and view it read-only, but follow the steps below to model the geometry manually if a model doesn't exist. 
+The best application of the floor plans is always to import an architectural REVIT model (how to :ref:`here <>`), but follow the steps below to model the geometry manually if a model doesn't exist. 
 
 
 Setup Wizard

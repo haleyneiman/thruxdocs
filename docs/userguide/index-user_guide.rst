@@ -363,11 +363,17 @@ Use the arrows to navigate between each Version.
 
 The Architectural information which comprise the Architectural Workspaces, :ref:`Arch. Elements <Arch.-Elements>` and the :ref:`Floor Plans <Floor-Plans>`, can be imported from a Revit model.
 
+.. toctree::
+    :maxdepth: 1
+
+    revitinterop/index-revit_interop_arch_import
+
 In addition, a THRUX model can be exported to Revit.  You can then fine-tune Equipment locations using Revit, and verify the integrity of the design using THRUX.
 
 .. figure:: images/revit-interop-1.PNG
     :align: center
     :alt: revit interop
+
 
 .. _AutoCAD-Interoperability:
 
