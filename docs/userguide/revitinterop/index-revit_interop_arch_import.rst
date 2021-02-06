@@ -6,7 +6,7 @@ Import an Architectural Model from REVIT
 
 Link an architectural revit model to THRUX. 
 
-1. Login to the THRUX :ref:`Account Portal<http://thruxcoreweb.azurewebsites.net/AccountPortal>`.
+1. Login to the THRUX `Account Portal<http://thruxcoreweb.azurewebsites.net/AccountPortal>`_.
 2. Navigate to the downloads section. Download and install the THRUX REVIT add-in for the required version of REVIT.
 3. Open REVIT, you should see the THRUX add-in available on the ribbon. 
 4. Select the add-in on the ribbon and select "Export Arch". 
