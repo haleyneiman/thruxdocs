@@ -3,9 +3,9 @@
 .. _Mechanical_Elements:
 
 
-############################
-Mechanical Specific Elements
-############################
+###################
+Mechanical Elements
+###################
 
 Space Types
 -----------
