@@ -41,10 +41,10 @@ Open the System's Browser to view the loads and equipment in the model.
 
     System's Browser
 
-Link loads to equipment by dragging and drop them from the load section onto an equipment coil. 
+Link loads to equipment by dragging and dropping them from the load section onto an equipment coil. 
 
 .. figure:: images/DragDropSystems.JPG
     :align: center
     :figwidth: 200
 
-    Drag/Drop Systems
+    Drag/Drop Functionality

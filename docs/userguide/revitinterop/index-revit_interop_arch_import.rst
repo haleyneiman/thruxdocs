@@ -25,6 +25,6 @@ Link an architectural revit model to THRUX.
 
 8. An import pop-up will appear, indicating the new elements that are being imported from the architectural model. If the model had been previously imported, this pop up will indcate any changes between this import and the last. 
 
-
+The next time the same model is imported, changes will be flagged in the new model against what currently exists in THRUX. 
 
 
