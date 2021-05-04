@@ -51,13 +51,16 @@ Zone Edit Mode
 
 Toggle on Zone Edit Mode at the top of the workspace to create, modify and delete thermal zones.
 
-Draw a selection box around multiple spaces to group them together into a zone. Once the zone is created, it can modified and reshaped to encompass other spaces. A zone considers any space fully enclosed by it's boundary to be included in the zone. Moving or reshaping the region will cause any spaces included to highlight.  
-
 .. figure:: images/ZoneEditMode.JPG
     :align: center
     :alt: Create/Modify/Delete zones
 
     Create/Modify/Delete zones
+
+Select "Create New Zone", then toggle on the checkbox for each space that should be included in the new zone. Enter the zone name and press "Accept" to create the zone. A visual region will appear, bounded by the outside boundary of the included spaces. 
+
+To edit a zone that has already been created, select it. Checkboxes will appear on each of the spaces that are included in the zone. Uncheck spaces to remove them, and check on new spaces to add them to the zone. Press "Accept" to complete the change. 
+
 
 Floor Slabs and Roofs
 ---------------------

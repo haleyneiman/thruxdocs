@@ -28,6 +28,16 @@ Each component type can be toggled on/off in the System's Browser by using the t
 
 Select a component to view the associated load visualized in a pie chart. 
 
+Calculated Values
+-----------------
 
+**Design CFM** :  Calculated by taking the greatest of four calculation methods
+
+* Sensible Driven CFM - flowrate required to meet sensible load requirements
+* Latent Driven CFM - flowrate required to meet latent load requirements
+* ACH Driven CFM - flowrate required to meet any applicable ACH requirements for the spaces
+* OA Driven CFM - flowrate required to meet any ventilation requirements for the spaces
+
+Note - if any calculation method other than sensible driven CFM is used to determine the design flowrate, reheat will be required to prevent overcooling of the space. 
 
 
