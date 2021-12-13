@@ -1,0 +1,6 @@
+﻿Property,Definition
+Equipment Template,Defines the equipment that will be automatically created when a zone is created. Equipment will be sized to serve the zone load. 
+Load Type,"Defines whether the zone is sized for the cooling loads of the spaces, the heating loads or both."
+System Connection Type,"Indicates how the zone level equipment will be connected to the zone. For ex. a supply side VAV system should select ""Supply Side Only"". Recirculating systems should select ""Closed Loop"". "
+Equipment SA DB Temp (Cooling),Override for equipment SA temperature in cooling scenarios (optional)
+Equipment SA DB Temp (Heating),Override for equipment SA temperature in heating scenarios (optional)

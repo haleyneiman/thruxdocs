@@ -67,6 +67,16 @@ Spaces are rooms, defined and created visually in the floor plans (or imported f
     :header-rows: 1
 
 
+Zone Types
+----------
+
+Zone Types define templates for thermal zones and the equipment that serves them. Once a zone is created in the model and a zone type is assigned, a piece of mechanical equipment (defined by the zone type) will be automatically created and linked to zone. Zone types can be used at any stage of the project lifecycle. For example, for block load calculations zone types can be used to create air handlers to serve a full floor. In a fit-out project zone types can be used to automically create terminal units.  
+
+.. csv-table:: Zone type Properties
+    :file: images/ZoneTypeProperties.csv
+    :widths: 30,70
+    :header-rows: 1
+
 Zones
 -----
 
