@@ -358,6 +358,6 @@ Mechanical
 .. toctree::
     :maxdepth: 1
 
-    floorplans/index-tips_and_tricks_for_manualfloorplans
+    userguide/buildingmechanicalmode/floorplans/index-tips_and_tricks_for_manualfloorplans
 
 
