@@ -20,6 +20,7 @@ Double click a space, and the :ref:`Properties Explorer <Properties-Explorer>` w
     Select a space type from the Quick Tag Explorer and click spaces in the floor plans to assign them to the selected template. 
 
 .. _Wall-Edit-Mode:
+
 Wall Edit Mode
 --------------
 

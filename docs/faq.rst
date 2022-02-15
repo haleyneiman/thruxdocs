@@ -351,4 +351,13 @@ See :ref:`Diversification <Diversification>`.
 Is there a way to implement a conditional constraint for sizing Equipment of loads greater than a specific amperage to require copper over aluminum?
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Coming soon.
+##########
+Mechanical
+##########
+
+.. toctree::
+    :maxdepth: 1
+
+    floorplans/index-tips_and_tricks_for_manualfloorplans
+
+
