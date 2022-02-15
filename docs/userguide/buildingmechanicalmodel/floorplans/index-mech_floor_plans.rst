@@ -57,10 +57,17 @@ Toggle on Zone Edit Mode at the top of the workspace to create, modify and delet
 
     Create/Modify/Delete zones
 
-Select "Create New Zone", then toggle on the checkbox for each space that should be included in the new zone. Enter the zone name and press "Accept" to create the zone. A visual region will appear, bounded by the outside boundary of the included spaces. 
+Select zones to edit from existing zones in the Zone Editor or create a new zone by selecting "Add Zone". Selecting a zone in the Zone Editor will enable shading, visually indicating which spaces are contained in the zone. Add or remove spaces from the selected zone by selecting or deselecting them in the visual floor plan. 
 
-To edit a zone that has already been created, select it. Checkboxes will appear on each of the spaces that are included in the zone. Uncheck spaces to remove them, and check on new spaces to add them to the zone. Press "Accept" to complete the change. 
+When a zone has been selected, additional properties will appear in the Properties browser which allow you to edit the name of the zone and the assigned zone type.
 
+.. figure:: images/ZoneEditZoomedIn.JPG
+    :align: center
+    :alt: Edit Zone Name and Template
+
+    Shading Indicates How Spaces are Assigned to Zones
+
+Hint: using the new Zone Editor, zones can now span multiple floors. 
 
 Floor Slabs and Roofs
 ---------------------
