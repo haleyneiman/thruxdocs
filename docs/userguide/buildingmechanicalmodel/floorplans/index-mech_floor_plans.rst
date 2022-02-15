@@ -6,7 +6,7 @@ Working in the Floor Plans
 
 The mechanical floor plans provide a visual interface for load calculations. Here, the basis of design templates created in the :ref:`Elements Workspace <Mechanical_Elements>` can be associated with the spaces, walls, windows, and roofs in the building.
 
-Follow these :ref:`steps <Floor-Plans>` to import an architectural REVIT model or build a lightweight floor plan in THRUX. 
+Follow these :ref:`steps <Floor-Plans>` to import an architectural REVIT model or build a lightweight floor plan in THRUX. If manually creating architecture, be sure to check the :ref:`Tips and Tricks Page <Tips-And-Tricks-For-Manual-Floor-Plans>` for guidance. 
 
 Assigning Space Types to Spaces
 -------------------------------
@@ -19,6 +19,7 @@ Double click a space, and the :ref:`Properties Explorer <Properties-Explorer>` w
 
     Select a space type from the Quick Tag Explorer and click spaces in the floor plans to assign them to the selected template. 
 
+.. _Wall-Edit-Mode:
 Wall Edit Mode
 --------------
 

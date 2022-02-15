@@ -77,19 +77,22 @@ Creation Mode
 
 Once Floors are created, enable Creation Mode.  This allows you to create Rooms and Risers.
 
-Create a Room by hovering the mouse between column regions and clicking Add Room.  
+Create a room by creating a modifiable polygon. Click the screen to create vertices, press enter to close the line and create the room. A pop up will appear, prompting you to input the room name and trade specific information.
 
 .. figure:: images/creation_mode.PNG
     :align: center
 
     Creating a Room with Creation Mode enabled
 
-To resize a Room, disable Creation Mode and click on a Room.
+To resize a Room, disable Creation Mode and select a room, the vertices and edges will enable allowing you to reshape them.
 
 .. figure:: images/room_resize.PNG
     :align: center
 
     Click and drag the grips to resize a Room
+
+NOTE: If working in the Mechanical module, check the :ref:`Tips and Tricks Page <Tips-And-Tricks-For-Manual-Floor-Plans>` for trade specific guidance. 
+
 
 Select multiple Floors by using Shift+Click.  Then hover over a grid region and select Add Room or Add Riser.
 
