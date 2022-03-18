@@ -29,7 +29,9 @@ While THRUX understands the length, height and direction of every wall in the mo
 .. image:: images/WallEditMode.jpg
     :align: center
     :alt: Wall Edit Mode
+
 |
+
 The following selections are available when building wall. 
 
 *   **Wall Type:** Template for wall type (U/K/Infiltration)
@@ -58,9 +60,11 @@ Once a wall is created, walls can be selected in the floor plans to view additio
 .. image:: images/CustomizingWindows.png
     :align: center
     :alt: Customizing Windows
-|
+
 
 Multiple windows can be modeled per wall. Each window can apply different Window Types and/or dimensions.
+
+|
 
 .. note::
     
@@ -71,6 +75,8 @@ Multiple windows can be modeled per wall. Each window can apply different Window
 .. image:: images/OverridingWindows.png
     :align: center
     :alt: Windows Override
+
+
 |
 
 .. warning::
