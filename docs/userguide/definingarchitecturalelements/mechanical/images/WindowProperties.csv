@@ -1,0 +1,3 @@
+﻿Property,Definition
+Window Type,The glazing construction type associated with window. 
+Dimensions, Optional field to specify fixed dimensions of window. Can be overriden on a per window basis

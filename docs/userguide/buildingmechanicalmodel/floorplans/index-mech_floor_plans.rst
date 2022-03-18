@@ -26,9 +26,20 @@ Wall Edit Mode
 
 While THRUX understands the length, height and direction of every wall in the model, defining a wall as exterior vs. interior is left up to the user. Toggle on "Wall Edit Mode" at the top of workspace to edit the walls of the building.
 
-.. image:: images/WallEditModeScreenshot.png
+.. image:: images/WallEditMode.jpg
     :align: center
     :alt: Wall Edit Mode
+|
+The following selections are available when building wall. 
+
+*   **Wall Type:** Template for wall type (U/K/Infiltration)
+*   **Window Type:** Template for window type (% wall area vs. custom dimensions)
+
+
+
+.. note::
+    
+    These properties can later be changed on a per wall basis if necessary. 
 
 With Wall Edit Mode enabled, the edges of each space become selectable. To batch select, draw a selection region enclosing one or more of the highlighted edges. Dragging to the left selects every edge touched. Dragging to the right selects only the edges fully enclosed by the region. By default, selected egdes are indicated as exterior and therefore contribute to the load of the space. 
 
@@ -38,6 +49,34 @@ Exterior walls are indicated visually in the plans with highlighted teal. Interi
     :file: images/WallProperties.csv
     :widths: 30, 70
     :header-rows: 1
+
+Customizing Windows
+-------------------
+
+Once a wall is created, walls can be selected in the floor plans to view additional information, including windows. When a window type is applied, a single window is created applying the glazing properties defined in the template.
+
+.. image:: images/CustomizingWindows.png
+    :align: center
+    :alt: Customizing Windows
+|
+
+Multiple windows can be modeled per wall. Each window can apply different Window Types and/or dimensions.
+
+.. note::
+    
+    Window dimensions can be overriden on a per window basis. If dimensions are overriden, changes to window type dimension properties will no longer apply.
+
+    This is helpful to avoid creating window types for one off cases, or buildings with a large variation in window size
+
+.. image:: images/OverridingWindows.png
+    :align: center
+    :alt: Windows Override
+|
+
+.. warning::
+    
+    If windows are modeled with dimensions that exceed the area of the hosting wall, calculations will max out at the dimensions of the wall.
+
 
 Global Building Rotation
 ------------------------
@@ -91,7 +130,6 @@ Once toggled on, a new set of properties will appear, applying to the floor slab
     :file: images/RoofProperties.csv
     :widths: 30,70
     :header-rows: 1
-
 
 
 

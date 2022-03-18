@@ -38,7 +38,7 @@ Wall Types are templates applied to the walls in project. They specify wall cons
 Window Types
 ------------
 
-Window Types are templates applied to the glazing portion of walls in the project. They specify the glass construction characteristics. Window Types are linked to Wall Types in the Wall Type tab. 
+Window Types are templates applied to the glazing portion of walls in the project. They specify the glass construction characteristics, as well as the dimensions.
 
 .. csv-table:: Window Type Properties
     :file: images/WindowTypeProperties.csv

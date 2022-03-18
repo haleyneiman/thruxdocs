@@ -6,3 +6,4 @@ Floor,Floor of the building the associated space is located.
 Floor Height,The floor to floor height between the slabs. 
 Wall Placement,"Exterior or Interior. Note, interior walls should only be indicated for walls that separate interior spaces of differing setpoints. "
 Adjacent Space,"If interior, the space on the other side of the wall. "
+Windows,A list of windows positioned on the wall
